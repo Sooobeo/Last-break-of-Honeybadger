@@ -1,0 +1,4 @@
+,strategy_description,QQQ,SPY,TLT
+Strategy A,QQQ 단일,1.0,0.0,0.0
+Strategy B,주식 혼합,0.5,0.5,0.0
+Strategy C,주식+채권,0.0,0.6,0.4

@@ -1,0 +1,4 @@
+,strategy_name,annualized_return_%,annualized_volatility_%,max_drawdown_%,cumulative_return_%,sharpe_ratio,positive_day_ratio_%
+Strategy A,QQQ 단일,19.32,21.82,-35.12,441.24,0.75,56.05
+Strategy B,주식 혼합,16.59,19.37,-30.86,333.37,0.7,55.45
+Strategy C,주식+채권,8.3,11.05,-27.24,115.32,0.48,55.41

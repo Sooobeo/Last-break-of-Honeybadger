@@ -1,0 +1,4 @@
+investor_profile,recommended_strategy,reason,annualized_return_%,annualized_volatility_%,max_drawdown_%,cumulative_return_%,sharpe_ratio,SPY_weight_%,QQQ_weight_%,TLT_weight_%
+Aggressive,Strategy A,Highest cumulative return and near-identical result to Max Sharpe,19.32,21.82,-35.12,441.24,0.75,0.0,100.0,0.0
+Balanced,Strategy B,Strong return with lower concentration risk than QQQ-only,16.59,19.37,-30.86,333.37,0.7,50.0,50.0,0.0
+Conservative,Strategy C,Lower drawdown than equity-only strategies with better return than Min Volatility,8.3,11.05,-27.24,115.32,0.48,60.0,0.0,40.0

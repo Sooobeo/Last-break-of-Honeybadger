@@ -1,0 +1,6 @@
+,type,description,annualized_return_%,annualized_volatility_%,max_drawdown_%,cumulative_return_%,sharpe_ratio,positive_day_ratio_%,SPY_weight_%,QQQ_weight_%,TLT_weight_%
+Strategy A,Manual,QQQ only,19.32,21.82,-35.12,441.24,0.75,56.05,0.0,100.0,0.0
+Strategy B,Manual,Equity mix,16.59,19.37,-30.86,333.37,0.7,55.45,50.0,50.0,0.0
+Strategy C,Manual,Equity + bond,8.3,11.05,-27.24,115.32,0.48,55.41,60.0,0.0,40.0
+Max Sharpe,Optimized,Max Sharpe,19.14,21.6,-35.07,434.05,0.75,56.01,0.07,99.0,0.93
+Min Volatility,Optimized,Min volatility,6.18,10.29,-29.2,75.64,0.31,54.53,44.5,0.14,55.35

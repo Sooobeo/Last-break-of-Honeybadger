@@ -1,0 +1,4 @@
+,daily_mean_%,annualized_return_%,daily_volatility_%,positive_day_ratio_%,cumulative_return_%,best_daily_return_%,worst_daily_return_%
+QQQ,0.08,19.32,1.37,56.05,441.24,8.47,-11.98
+SPY,0.05,13.85,1.11,54.61,240.81,9.06,-10.94
+TLT,0.0,-0.03,0.96,51.27,-11.29,7.52,-6.67

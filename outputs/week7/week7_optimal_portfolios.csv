@@ -1,0 +1,3 @@
+,optimization_goal,portfolio_id,annualized_return_%,annualized_volatility_%,sharpe_ratio,SPY_weight_%,QQQ_weight_%,TLT_weight_%,cumulative_return_%,max_drawdown_%,realized_annualized_return_%,realized_annualized_volatility_%,realized_sharpe_ratio
+Max Sharpe Portfolio,Max Sharpe Portfolio,7334,19.14,21.6,0.75,0.07,99.0,0.93,434.05,-35.07,19.14,21.6,0.75
+Min Volatility Portfolio,Min Volatility Portfolio,5510,6.18,10.29,0.31,44.5,0.14,55.35,75.64,-29.2,6.18,10.29,0.31
