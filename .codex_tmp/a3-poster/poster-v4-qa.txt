@@ -1,0 +1,27 @@
+Poster v4 QA
+
+Communication flow — PASS
+- Problem: QQQ leads on return, but Strategy A also carries 21.82% volatility and −35.12% MDD.
+- Research questions: whether diversification reduced MDD, how much return it cost, and whether optimization produced a better answer.
+- Method: same assets, period, strategy definitions, and five evaluation metrics.
+- Result 1: maps all strategies by cumulative return and MDD; establishes that minimum volatility is not minimum loss.
+- Result 2: quantifies the cost and benefit of A→B; explicitly connects the first result to the practical compromise.
+- Result 3: tests whether optimization offers a new solution; shows Max Sharpe reproducing QQQ concentration.
+- Conclusion: answers the opening question and gives three decision principles.
+
+Numeric consistency — PASS
+- A→B annualized-return cost 2.73%p.
+- A→B cumulative-return cost 107.87%p.
+- A→B volatility reduction 2.45%p.
+- A→B MDD improvement 4.26%p.
+- C versus Min Volatility cumulative-return advantage 39.68%p.
+- C versus Min Volatility MDD advantage 1.96%p.
+- Max Sharpe QQQ allocation 99.00%.
+
+Visual QA — PASS
+- A3 portrait, one slide.
+- Actual Microsoft PowerPoint PNG render inspected at 1123 × 1587.
+- Chart sizes reduced to make room for problem framing, method, result transitions, and conclusion.
+- No strategy table.
+- No unintended clipping or overlap observed.
+- No PDF created.
