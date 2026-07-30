@@ -1,0 +1,26 @@
+Poster v6 QA
+
+Audience comprehension — PASS
+- Replaced raw A→B numeric-change listing with plain-language explanations of growth retained, concentration reduced, and drawdown behavior.
+- Defined SPY, QQQ, and TLT in one line before introducing strategies.
+- Strategy A explains the purpose of an all-QQQ concentration benchmark.
+- Strategy B explains why 50:50 is a deliberately simple midpoint for isolating concentration reduction without bonds.
+- Strategy C explains why a majority-equity / 40% bond mix tests asset-class diversification and downside defense.
+
+Optimization process — PASS
+- Added the project’s 10,000-portfolio Monte Carlo process.
+- Explained that random weights always sum to 100% and exclude short selling.
+- Explained what is calculated for every portfolio.
+- Defined Max Sharpe and Min Volatility in plain language.
+- Included the Efficient Frontier image and a Korean caption explaining dots and highlighted optima.
+
+Results and conclusion — PASS
+- Replaced the technical risk-return scatter and change bars with cumulative-growth and maximum-loss charts.
+- Interpreted Strategy A, B, C, Max Sharpe, and Min Volatility in prose.
+- Kept the distinctive conclusion that low day-to-day volatility is not the same as the smallest maximum loss.
+
+Visual QA — PASS
+- A3 portrait, one slide.
+- Actual PowerPoint PNG render inspected at 1123 × 1587.
+- No unintended clipping or overlap observed.
+- No PDF created.
