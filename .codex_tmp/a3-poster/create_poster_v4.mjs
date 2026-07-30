@@ -5,8 +5,8 @@ import { Presentation, PresentationFile } from "@oai/artifact-tool";
 const ROOT = "C:\\Users\\Insun\\Last-break-of-Honeybadger";
 const TMP = path.join(ROOT, ".codex_tmp", "a3-poster");
 const OUT = path.join(ROOT, "outputs", "poster");
-const FINAL_PPTX = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v4.pptx");
-const PREVIEW_PNG = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v4_preview.png");
+const FINAL_PPTX = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v5.pptx");
+const PREVIEW_PNG = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v5_preview.png");
 
 const W = 1123;
 const H = 1587;
@@ -175,15 +175,15 @@ async function main() {
   );
   addText(
     slide,
-    "2  비교 대상",
+    "2  전략 설계",
     { left: 407, top: 386, width: 310, height: 25 },
     { fontSize: 18, bold: true, color: C.orange }
   );
   addText(
     slide,
-    "A  QQQ 100%\nB  SPY 50% + QQQ 50%\nC  SPY 60% + TLT 40%\n공매도 없이 포트폴리오 10,000개 추가 시뮬레이션",
+    "A 공격형  QQQ 100% — 집중 성장의 기준선\nB 균형형  SPY 50% + QQQ 50% — 주식 내 분산\nC 방어형  SPY 60% + TLT 40% — 주식·채권 분산\nMax Sharpe  위험조정성과 최대\nMin Volatility  변동성 최소  |  10,000개 중 선택",
     { left: 407, top: 420, width: 310, height: 88 },
-    { fontSize: 15, color: C.ink, lineSpacing: 1.04 }
+    { fontSize: 12, color: C.ink, lineSpacing: 1.03 }
   );
   addText(
     slide,
@@ -197,12 +197,12 @@ async function main() {
     { left: 775, top: 420, width: 306, height: 88 },
     { fontSize: 15, color: C.ink, lineSpacing: 1.04 }
   );
-  addRect(slide, { left: 42, top: 529, width: 1039, height: 39 }, C.tealSoft);
+  addRect(slide, { left: 42, top: 526, width: 1039, height: 48 }, C.tealSoft);
   addText(
     slide,
-    "분석 순서  전체 전략의 수익–낙폭 위치 확인 → A에서 B로 바꿀 때의 비용 계산 → 최적화 결과가 새로운 해법인지 검증",
-    { left: 60, top: 539, width: 1003, height: 21 },
-    { fontSize: 14, bold: true, color: C.navy, alignment: "center" }
+    "전략의 역할  집중 성장(A) → 주식 내 분산(B) → 자산군 분산(C)으로 위험 완화 단계를 설계\n분석 순서  전체 위치 확인 → A→B의 비용 계산 → 최적화가 새로운 해법인지 검증",
+    { left: 60, top: 533, width: 1003, height: 33 },
+    { fontSize: 13, bold: true, color: C.navy, alignment: "center", lineSpacing: 1.03 }
   );
 
   // 03 Result 1
@@ -479,12 +479,12 @@ async function main() {
   const preview = await presentation.export({ slide, format: "png", scale: 1.5 });
   await writeBlob(PREVIEW_PNG, preview);
   const layout = await slide.export({ format: "layout" });
-  await fs.writeFile(path.join(TMP, "poster-v4-layout.json"), await layout.text());
+  await fs.writeFile(path.join(TMP, "poster-v5-layout.json"), await layout.text());
   const snapshot = await presentation.inspect({
     kind: "slide,textbox,shape,image,table,chart,notes",
     maxChars: 28000,
   });
-  await fs.writeFile(path.join(TMP, "poster-v4-inspect.ndjson"), snapshot.ndjson);
+  await fs.writeFile(path.join(TMP, "poster-v5-inspect.ndjson"), snapshot.ndjson);
 
   const pptx = await PresentationFile.exportPptx(presentation);
   await pptx.save(FINAL_PPTX);
