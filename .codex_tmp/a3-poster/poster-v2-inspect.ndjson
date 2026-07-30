@@ -1,0 +1,64 @@
+{"kind":"slide","id":"sl/hst5cb","slide":1,"title":"벌꿀오소리의 마지막 브레이크","textShapes":35}
+{"kind":"shape","id":"sh/b6xwjqxk","slide":1,"name":"header-band","bbox":[0,0,1123,145]}
+{"kind":"shape","id":"sh/w76xsvep","slide":1,"bbox":[0,141,1123,4]}
+{"kind":"textbox","id":"sh/x8zel0fa","slide":1,"name":"poster-title","text":"벌꿀오소리의 마지막 브레이크","textPreview":"벌꿀오소리의 마지막 브레이크","textChars":15,"textLines":1,"bbox":[42,22,715,62]}
+{"kind":"textbox","id":"sh/y98fu5wv","slide":1,"name":"poster-subtitle","text":"공격적으로 투자하기 전, SPY·QQQ·TLT로 확인한 수익–위험의 마지막 점검","textPreview":"공격적으로 투자하기 전, SPY·QQQ·TLT로 확인한 수익–위험의 마지막 점검","textChars":44,"textLines":1,"bbox":[45,91,720,31]}
+{"kind":"shape","id":"sh/jahwnaxg","slide":1,"bbox":[800,25,5,92]}
+{"kind":"textbox","id":"sh/kbqxwfe1","slide":1,"name":"research-question-header","text":"연구 질문\nQQQ 집중의 추가 수익은\n변동성·낙폭을 감수할 만큼 충분한가?","textPreview":"연구 질문 | QQQ 집중의 추가 수익은 | 변동성·낙폭을 감수할 만큼 충분한가?","textChars":41,"textLines":3,"bbox":[823,24,259,99]}
+{"kind":"shape","id":"sh/lczepkfm","slide":1,"bbox":[42,164,506,211]}
+{"kind":"shape","id":"sh/6d8fypw7","slide":1,"bbox":[59,183,4,22]}
+{"kind":"textbox","id":"sh/7ehgraxs","slide":1,"text":"연구 배경과 목적","textPreview":"연구 배경과 목적","textChars":9,"textLines":1,"bbox":[71,180,458,28]}
+{"kind":"textbox","id":"sh/ralkvqdk","slide":1,"text":"성장주가 주도한 구간에서는 수익률만 보면 QQQ 집중이 가장 합리적으로 보인다. 그러나 투자자가 실제로 견뎌야 하는 위험은 연간 변동성뿐 아니라 고점 이후 하락 폭과 회복 부담까지 포함한다.\n\n본 연구는 SPY(미국 대형주), QQQ(기술주 중심), TLT(미 장기국채)를 같은 기간에 비교해 집중이 만든 추가 보상과 분산이 줄인 위험을 수치로 분리한다. 또한 임의 전략과 수학적 최적해를 함께 놓아 ‘최고 수익’과 ‘실행 가능한 선택’이 같은지 검토했다.","textPreview":"성장주가 주도한 구간에서는 수익률만 보면 QQQ 집중이 가장 합리적으로 보인다. 그러나 투자자가 실제로 견뎌야 하는 위험은 연간 변동성뿐 아니라 고점 이후 하락 폭과 회복 부담까지 포함한다. |  | 본 연구는 SPY(미국 대형주), QQQ(기술...","textChars":255,"textLines":3,"bbox":[59,216,472,142]}
+{"kind":"shape","id":"sh/69c3mlwz","slide":1,"bbox":[568,164,513,211]}
+{"kind":"shape","id":"sh/tc32x0vq","slide":1,"bbox":[585,183,4,22]}
+{"kind":"textbox","id":"sh/sbulove5","slide":1,"text":"데이터와 분석 설계","textPreview":"데이터와 분석 설계","textChars":10,"textLines":1,"bbox":[597,180,466,28]}
+{"kind":"textbox","id":"sh/jm1krqd8","slide":1,"text":"대상·기간  SPY · QQQ · TLT  |  2015.01.02–2024.12.30  |  2,515거래일\n수익률  r(t) = P(t) / P(t−1) − 1\n연율수익률  평균 일수익률 × 252\n변동성  일수익률 표준편차 × √252\n최대낙폭(MDD)  누적가치의 고점 대비 최대 하락률\nSharpe  (연율수익률 − 무위험수익률 3%) / 변동성\n\n비교 전략은 매일 고정 비중으로 재조정했다. 최적화는 공매도 없이 비중 합계가 100%인 10,000개 포트폴리오를 무작위 생성해 수행했다.","textPreview":"대상·기간  SPY · QQQ · TLT  |  2015.01.02–2024.12.30  |  2,515거래일 | 수익률  r(t) = P(t) / P(t−1) − 1 | 연율수익률  평균 일수익률 × 252 | 변동성  일수익률 표준편차 × √...","textChars":278,"textLines":8,"bbox":[585,215,478,146]}
+{"kind":"shape","id":"sh/ils3ilw3","slide":1,"bbox":[42,399,7,31]}
+{"kind":"textbox","id":"sh/58j2tgve","slide":1,"text":"01. 개별 자산에서는 높은 수익과 낮은 위험이 동시에 나타나지 않았다","textPreview":"01. 개별 자산에서는 높은 수익과 낮은 위험이 동시에 나타나지 않았다","textChars":39,"textLines":1,"bbox":[60,397,1020,39]}
+{"kind":"shape","id":"sh/4nalkvet","slide":1,"bbox":[42,441,563,350]}
+{"kind":"textbox","id":"sh/3i543ads","slide":1,"text":"QQQ | 수익을 높였지만 손실 범위도 컸다","textPreview":"QQQ | 수익을 높였지만 손실 범위도 컸다","textChars":24,"textLines":1,"bbox":[59,457,526,26]}
+{"kind":"textbox","id":"sh/2hw3u5w7","slide":1,"text":"연율수익률 19.32%, 누적수익률 441.24%로 세 자산 중 가장 높았다. 동시에 변동성 21.82%, MDD −35.12%를 기록했다. 높은 성장 보상은 컸지만, 한 번의 큰 하락을 버틸 수 있어야 실현 가능한 성과였다.","textPreview":"연율수익률 19.32%, 누적수익률 441.24%로 세 자산 중 가장 높았다. 동시에 변동성 21.82%, MDD −35.12%를 기록했다. 높은 성장 보상은 컸지만, 한 번의 큰 하락을 버틸 수 있어야 실현 가능한 성과였다.","textChars":126,"textLines":1,"bbox":[59,487,526,61]}
+{"kind":"shape","id":"sh/ydgnm9gf","slide":1,"bbox":[59,555,526,1]}
+{"kind":"textbox","id":"sh/zypovex0","slide":1,"text":"SPY | 수익과 위험의 중간 기준점","textPreview":"SPY | 수익과 위험의 중간 기준점","textChars":20,"textLines":1,"bbox":[59,564,526,25]}
+{"kind":"textbox","id":"sh/kzy5ojyl","slide":1,"text":"연율수익률 13.85%, 누적수익률 240.81%, 변동성 17.62%, MDD −33.72%였다. QQQ보다 수익과 변동성이 모두 낮아, 집중 전략을 평가하는 시장 기준선 역할을 했다.","textPreview":"연율수익률 13.85%, 누적수익률 240.81%, 변동성 17.62%, MDD −33.72%였다. QQQ보다 수익과 변동성이 모두 낮아, 집중 전략을 평가하는 시장 기준선 역할을 했다.","textChars":104,"textLines":1,"bbox":[59,593,526,52]}
+{"kind":"shape","id":"sh/l0r6xofq","slide":1,"bbox":[59,652,526,1]}
+{"kind":"textbox","id":"sh/m10nqtgb","slide":1,"text":"TLT | 낮은 변동성이 작은 낙폭을 보장하지 않았다","textPreview":"TLT | 낮은 변동성이 작은 낙폭을 보장하지 않았다","textChars":29,"textLines":1,"bbox":[59,661,526,25]}
+{"kind":"textbox","id":"sh/729ozyxw","slide":1,"text":"연율수익률 −0.03%, 누적수익률 −11.29%, 변동성 15.32%였지만 MDD는 −48.35%로 가장 깊었다.","textPreview":"연율수익률 −0.03%, 누적수익률 −11.29%, 변동성 15.32%였지만 MDD는 −48.35%로 가장 깊었다.","textChars":64,"textLines":1,"bbox":[59,688,526,51]}
+{"kind":"textbox","id":"sh/83ips3yh","slide":1,"text":"누적 성장배수 (2015년 초 = 1)","textPreview":"누적 성장배수 (2015년 초 = 1)","textChars":21,"textLines":1,"bbox":[629,443,454,23]}
+{"kind":"textbox","id":"sh/25wnepg7","slide":1,"text":"최대낙폭의 크기 (%)","textPreview":"최대낙폭의 크기 (%)","textChars":12,"textLines":1,"bbox":[629,609,454,23]}
+{"kind":"shape","id":"sh/5cfi9w3m","slide":1,"bbox":[629,749,452,42]}
+{"kind":"textbox","id":"sh/4bmhgrm1","slide":1,"text":"해석 포인트  변동성은 ‘흔들림’, MDD는 ‘최악의 낙폭’을 측정한다. TLT는 변동성이 낮아도 MDD가 가장 컸으므로 두 지표를 함께 봐야 한다.","textPreview":"해석 포인트  변동성은 ‘흔들림’, MDD는 ‘최악의 낙폭’을 측정한다. TLT는 변동성이 낮아도 MDD가 가장 컸으므로 두 지표를 함께 봐야 한다.","textChars":83,"textLines":1,"bbox":[643,758,424,27]}
+{"kind":"shape","id":"sh/3ad07mlg","slide":1,"bbox":[42,814,7,31]}
+{"kind":"textbox","id":"sh/i94zeh4v","slide":1,"text":"02. 분산의 효과는 수익 감소와 위험 완화의 교환관계로 나타났다","textPreview":"02. 분산의 효과는 수익 감소와 위험 완화의 교환관계로 나타났다","textChars":36,"textLines":1,"bbox":[60,812,1020,39]}
+{"kind":"shape","id":"sh/sz6hkbmx","slide":1,"bbox":[42,1005,563,247]}
+{"kind":"shape","id":"sh/rex0b6lc","slide":1,"bbox":[59,1024,4,22]}
+{"kind":"textbox","id":"sh/qdozi147","slide":1,"text":"전략별 해석","textPreview":"전략별 해석","textChars":6,"textLines":1,"bbox":[71,1021,516,28]}
+{"kind":"textbox","id":"sh/t4bi1c3e","slide":1,"text":"A · 공격형  가장 높은 수익률과 Sharpe를 얻었지만 QQQ 한 자산에 전부 노출된다. 성과가 기술주 상승기에 강하게 의존하므로 손실 감내 능력이 선택의 전제다.\n\nB · 균형형  QQQ 비중을 절반으로 낮추면서 수익의 상당 부분을 유지했다. Sharpe는 0.05만 낮아졌고 변동성과 MDD가 함께 개선되어, 집중 완화와 성장 노출을 동시에 원하는 중간 선택지다.\n\nC · 안정형  수동 전략 중 변동성과 MDD가 가장 낮았다. 다만 TLT의 부진으로 수익률과 Sharpe가 크게 낮아져, 채권 편입의 분산 효과가 항상 무료인 것은 아니었다.","textPreview":"A · 공격형  가장 높은 수익률과 Sharpe를 얻었지만 QQQ 한 자산에 전부 노출된다. 성과가 기술주 상승기에 강하게 의존하므로 손실 감내 능력이 선택의 전제다. |  | B · 균형형  QQQ 비중을 절반으로 낮추면서 수익의 상당 부분을 ...","textChars":307,"textLines":5,"bbox":[59,1058,528,176]}
+{"kind":"shape","id":"sh/832h87mt","slide":1,"bbox":[629,1005,452,247]}
+{"kind":"textbox","id":"sh/wzalgf6h","slide":1,"text":"핵심 비교 · Strategy A → B","textPreview":"핵심 비교 · Strategy A → B","textChars":22,"textLines":1,"bbox":[648,1022,414,29]}
+{"kind":"textbox","id":"sh/x0j2pkn2","slide":1,"text":"QQQ 집중도       100%  →  50%\n연율수익률        19.32% → 16.59%   (−2.73%p)\n누적수익률       441.24% → 333.37% (−107.87%p)\n변동성              21.82% → 19.37%   (−2.45%p)\n최대낙폭          −35.12% → −30.86%  (+4.26%p 개선)\nSharpe               0.75 → 0.70          (−0.05)","textPreview":"QQQ 집중도       100%  →  50% | 연율수익률        19.32% → 16.59%   (−2.73%p) | 누적수익률       441.24% → 333.37% (−107.87%p) | 변동성              21.8...","textChars":250,"textLines":6,"bbox":[648,1060,414,126]}
+{"kind":"shape","id":"sh/axs3e5ob","slide":1,"bbox":[648,1196,414,2]}
+{"kind":"textbox","id":"sh/by1kna5w","slide":1,"text":"해석  B는 최고 수익을 포기한 대가로 집중도와 하락 위험을 낮췄다. 이것은 ‘A보다 우월하다’는 뜻이 아니라, 목표와 감내 손실이 다르면 합리적 선택도 달라진다는 뜻이다.","textPreview":"해석  B는 최고 수익을 포기한 대가로 집중도와 하락 위험을 낮췄다. 이것은 ‘A보다 우월하다’는 뜻이 아니라, 목표와 감내 손실이 다르면 합리적 선택도 달라진다는 뜻이다.","textChars":96,"textLines":1,"bbox":[648,1205,414,37]}
+{"kind":"shape","id":"sh/ovqlcv65","slide":1,"bbox":[42,1274,7,31]}
+{"kind":"textbox","id":"sh/pwj2l0nq","slide":1,"text":"03. 최적화는 QQQ 집중을 재현했지만 단일 지표가 전체 위험을 설명하지는 못했다","textPreview":"03. 최적화는 QQQ 집중을 재현했지만 단일 지표가 전체 위험을 설명하지는 못했다","textChars":46,"textLines":1,"bbox":[60,1272,1020,39]}
+{"kind":"shape","id":"sh/2t83a5of","slide":1,"bbox":[42,1314,568,190]}
+{"kind":"textbox","id":"sh/nuhkja5k","slide":1,"text":"Max Sharpe | QQQ 99.00% · SPY 0.07% · TLT 0.93%","textPreview":"Max Sharpe | QQQ 99.00% · SPY 0.07% · TLT 0.93%","textChars":47,"textLines":1,"bbox":[59,1330,533,24]}
+{"kind":"textbox","id":"sh/07q18v69","slide":1,"text":"연율수익률 19.14%, 변동성 21.60%, MDD −35.07%, 누적수익률 434.05%, Sharpe 0.75였다. 과거 성과가 가장 강했던 QQQ 집중을 사실상 다시 선택했다.","textPreview":"연율수익률 19.14%, 변동성 21.60%, MDD −35.07%, 누적수익률 434.05%, Sharpe 0.75였다. 과거 성과가 가장 강했던 QQQ 집중을 사실상 다시 선택했다.","textChars":103,"textLines":1,"bbox":[59,1359,533,43]}
+{"kind":"textbox","id":"sh/18z2h0nu","slide":1,"text":"Min Volatility | SPY 44.50% · QQQ 0.14% · TLT 55.35%","textPreview":"Min Volatility | SPY 44.50% · QQQ 0.14% · TLT 55.35%","textChars":52,"textLines":1,"bbox":[59,1409,533,24]}
+{"kind":"textbox","id":"sh/32x4rq9g","slide":1,"text":"연율수익률 6.18%, 변동성 10.29%, MDD −29.20%, 누적수익률 75.64%, Sharpe 0.31이었다. C보다 변동성은 0.76%p 낮았지만 누적수익률은 39.68%p 낮고 MDD는 1.96%p 더 깊었다.","textPreview":"연율수익률 6.18%, 변동성 10.29%, MDD −29.20%, 누적수익률 75.64%, Sharpe 0.31이었다. C보다 변동성은 0.76%p 낮았지만 누적수익률은 39.68%p 낮고 MDD는 1.96%p 더 깊었다.","textChars":125,"textLines":1,"bbox":[59,1438,533,39]}
+{"kind":"shape","id":"sh/i1o3il8v","slide":1,"bbox":[59,1481,533,25]}
+{"kind":"textbox","id":"sh/54fmt0rm","slide":1,"text":"주의  최적화와 평가는 같은 기간을 사용한 in-sample 결과다.\nQQQ 99%는 보편적 정답이 아니라 2015–2024년의 기간 특화 해다.","textPreview":"주의  최적화와 평가는 같은 기간을 사용한 in-sample 결과다. | QQQ 99%는 보편적 정답이 아니라 2015–2024년의 기간 특화 해다.","textChars":81,"textLines":2,"bbox":[68,1484,515,19]}
+{"kind":"textbox","id":"sh/r6h4vq9s","slide":1,"text":"10,000개 포트폴리오","textPreview":"10,000개 포트폴리오","textChars":13,"textLines":1,"bbox":[629,1467,214,20]}
+{"kind":"textbox","id":"sh/dszmx0ri","slide":1,"text":"최적 포트폴리오 비중","textPreview":"최적 포트폴리오 비중","textChars":11,"textLines":1,"bbox":[858,1467,223,20]}
+{"kind":"shape","id":"sh/srqlovqx","slide":1,"name":"conclusion-band","bbox":[0,1518,1123,56]}
+{"kind":"textbox","id":"sh/fuh4za9o","slide":1,"text":"결론","textPreview":"결론","textChars":2,"textLines":1,"bbox":[42,1530,58,24]}
+{"kind":"textbox","id":"sh/et83q583","slide":1,"text":"가장 높은 수익과 가장 낮은 위험은 동시에 얻어지지 않았다. Strategy B는 Sharpe 0.05를 포기해 집중도와 낙폭을 낮춘 절충안이었다. 선택 기준은 최고 수익률이 아니라 감내 가능한 손실과 투자 목적이어야 한다.","textPreview":"가장 높은 수익과 가장 낮은 위험은 동시에 얻어지지 않았다. Strategy B는 Sharpe 0.05를 포기해 집중도와 낙폭을 낮춘 절충안이었다. 선택 기준은 최고 수익률이 아니라 감내 가능한 손실과 투자 목적이어야 한다.","textChars":125,"textLines":1,"bbox":[111,1528,600,38]}
+{"kind":"shape","id":"sh/apc7i9sb","slide":1,"bbox":[733,1529,2,37]}
+{"kind":"textbox","id":"sh/bqloretw","slide":1,"text":"한계  동일 기간 최적화·평가, 비용·세금 미반영, 매일 재조정, 3개 ETF·무위험수익률 3% 고정\n후속  롤링·표본외 검증, 가변 금리·거래비용, 재조정 주기와 자산군 확장","textPreview":"한계  동일 기간 최적화·평가, 비용·세금 미반영, 매일 재조정, 3개 ETF·무위험수익률 3% 고정 | 후속  롤링·표본외 검증, 가변 금리·거래비용, 재조정 주기와 자산군 확장","textChars":98,"textLines":2,"bbox":[751,1527,330,41]}
+{"kind":"textbox","id":"sh/wrupkjah","slide":1,"text":"자료: Yahoo Finance via yfinance  |  분석: Python · pandas · NumPy  |  분석 기간: 2015.01.02–2024.12.30","textPreview":"자료: Yahoo Finance via yfinance  |  분석: Python · pandas · NumPy  |  분석 기간: 2015.01.02–2024.12.30","textChars":95,"textLines":1,"bbox":[42,1576,1039,9]}
+{"kind":"chart","id":"ch/dgbat4ra","slide":1,"name":"","chartType":"line","bbox":[629,469,452,132]}
+{"kind":"chart","id":"ch/7ipsfat0","slide":1,"name":"","chartType":"bar","bbox":[629,634,452,105]}
+{"kind":"chart","id":"ch/a187u1kf","slide":1,"name":"","chartType":"bar","bbox":[858,1318,223,147]}
+{"kind":"table","id":"tb/6947qp4v","slide":1,"name":"","rows":4,"cols":7,"preview":"전략 | 구성 | 연율수익률 | 누적수익률 | 변동성 | MDD | Sharpe","bbox":[42,855,1039,133]}
+{"kind":"image","id":"im/betsfy1c","slide":1,"name":"","alt":"10,000개 Monte Carlo 포트폴리오의 Efficient Frontier와 최적 포트폴리오","bbox":[629,1318,214,147]}
+{"kind":"notes","id":"nt/hst5cb","slide":1,"text":"[Sources]\n- Local price data: C:\\Users\\Insun\\Last-break-of-Honeybadger\\etf_price.csv\n- Asset return summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week4\\week4_return_summary.csv\n- Asset risk summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week5\\week5_risk_summary.csv\n- Manual strategy summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week6\\week6_strategy_summary.csv\n- Monte Carlo simulations and optimal portfolios: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\n- Final strategy summary and recommendations: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week8\n- Efficient frontier image: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\\efficient_frontier.png\n- Underlying market-data source recorded by the project: Yahoo Finance via yfinance\n\n"}
