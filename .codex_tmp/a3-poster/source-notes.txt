@@ -1,0 +1,10 @@
+[Sources]
+- Local price data: C:\Users\Insun\Last-break-of-Honeybadger\etf_price.csv
+- Asset return summary: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week4\week4_return_summary.csv
+- Asset risk summary: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week5\week5_risk_summary.csv
+- Manual strategy summary: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week6\week6_strategy_summary.csv
+- Monte Carlo simulations and optimal portfolios: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week7
+- Final strategy summary and recommendations: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week8
+- Efficient frontier image: C:\Users\Insun\Last-break-of-Honeybadger\outputs\week7\efficient_frontier.png
+- Underlying market-data source recorded by the project: Yahoo Finance via yfinance
+

@@ -1,0 +1,51 @@
+{"kind":"slide","id":"sl/bf9pu9","slide":1,"title":"벌꿀오소리의 마지막 브레이크","textShapes":33}
+{"kind":"shape","id":"sh/vilgnu1w","slide":1,"name":"header-band","bbox":[0,0,1123,154]}
+{"kind":"shape","id":"sh/gjuhwzih","slide":1,"bbox":[0,150,1123,4]}
+{"kind":"textbox","id":"sh/hk3ip4j2","slide":1,"name":"poster-title","text":"벌꿀오소리의 마지막 브레이크","textPreview":"벌꿀오소리의 마지막 브레이크","textChars":15,"textLines":1,"bbox":[42,25,720,67]}
+{"kind":"textbox","id":"sh/ilczy907","slide":1,"name":"poster-subtitle","text":"SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화","textPreview":"SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화","textChars":42,"textLines":1,"bbox":[45,97,720,34]}
+{"kind":"shape","id":"sh/3ml0re1s","slide":1,"bbox":[800,28,5,94]}
+{"kind":"textbox","id":"sh/4nuh0jid","slide":1,"name":"research-question-header","text":"QQQ에 집중해 얻은 추가 수익은\n더 큰 변동성과 낙폭을 감수할 만큼 컸는가?","textPreview":"QQQ에 집중해 얻은 추가 수익은 | 더 큰 변동성과 낙폭을 감수할 만큼 컸는가?","textChars":43,"textLines":2,"bbox":[823,28,258,100]}
+{"kind":"textbox","id":"sh/5o3it4jy","slide":1,"text":"연구 질문","textPreview":"연구 질문","textChars":5,"textLines":1,"bbox":[42,176,170,32]}
+{"kind":"textbox","id":"sh/qpcz290j","slide":1,"text":"가장 많이 오른 자산에 집중하는 것이 정말 최선인가?","textPreview":"가장 많이 오른 자산에 집중하는 것이 정말 최선인가?","textChars":29,"textLines":1,"bbox":[42,215,585,40]}
+{"kind":"textbox","id":"sh/rq50ve14","slide":1,"text":"수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해\n집중과 분산 사이의 교환관계를 확인했다.","textPreview":"수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해 | 집중과 분산 사이의 교환관계를 확인했다.","textChars":68,"textLines":2,"bbox":[42,262,610,52]}
+{"kind":"textbox","id":"sh/bu98zils","slide":1,"text":"데이터와 방법","textPreview":"데이터와 방법","textChars":7,"textLines":1,"bbox":[690,176,190,32]}
+{"kind":"textbox","id":"sh/at0rqdkn","slide":1,"text":"SPY · QQQ · TLT  |  2015.01.02-2024.12.30\n2,515거래일  |  연율화 252일  |  무위험수익률 3%\nMonte Carlo 10,000회  |  공매도 없음  |  비중 합 100%\n개별 ETF → 위험 측정 → 전략 비교 → 최적화","textPreview":"SPY · QQQ · TLT  |  2015.01.02-2024.12.30 | 2,515거래일  |  연율화 252일  |  무위험수익률 3% | Monte Carlo 10,000회  |  공매도 없음  |  비중 합 100% | 개별 ETF →...","textChars":151,"textLines":4,"bbox":[690,216,391,86]}
+{"kind":"shape","id":"sh/xwrq1s3y","slide":1,"bbox":[42,317,1039,2]}
+{"kind":"shape","id":"sh/wvi9sn2d","slide":1,"bbox":[42,339,7,30]}
+{"kind":"textbox","id":"sh/nqp8vilw","slide":1,"text":"01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다","textPreview":"01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다","textChars":35,"textLines":1,"bbox":[60,335,1020,38]}
+{"kind":"textbox","id":"sh/mpgrmdkb","slide":1,"text":"성장배수 (2015년 초 $1 기준)","textPreview":"성장배수 (2015년 초 $1 기준)","textChars":20,"textLines":1,"bbox":[42,378,350,28]}
+{"kind":"textbox","id":"sh/ory9on2h","slide":1,"text":"최대낙폭 크기 (%)","textPreview":"최대낙폭 크기 (%)","textChars":11,"textLines":1,"bbox":[720,378,250,28]}
+{"kind":"textbox","id":"sh/6lkryxkf","slide":1,"text":"QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%","textPreview":"QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%","textChars":50,"textLines":1,"bbox":[42,607,1039,27]}
+{"kind":"shape","id":"sh/ih4bq14n","slide":1,"bbox":[42,650,7,30]}
+{"kind":"textbox","id":"sh/3idcz658","slide":1,"text":"02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다","textPreview":"02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다","textChars":31,"textLines":1,"bbox":[60,646,1020,38]}
+{"kind":"textbox","id":"sh/5kfu1gne","slide":1,"text":"연율화 위험-수익 지도  (x: 변동성, y: 수익률)","textPreview":"연율화 위험-수익 지도  (x: 변동성, y: 수익률)","textChars":30,"textLines":1,"bbox":[42,854,300,28]}
+{"kind":"textbox","id":"sh/rmxc3q5k","slide":1,"text":"A ≈ Max Sharpe","textPreview":"A ≈ Max Sharpe","textChars":14,"textLines":1,"bbox":[485,900,150,26]}
+{"kind":"shape","id":"sh/sn6twbm5","slide":1,"bbox":[700,874,381,2]}
+{"kind":"textbox","id":"sh/dofu5g3a","slide":1,"text":"Strategy A → Strategy B","textPreview":"Strategy A → Strategy B","textChars":23,"textLines":1,"bbox":[700,889,381,35]}
+{"kind":"textbox","id":"sh/6pkbih4v","slide":1,"text":"덜 벌고","textPreview":"덜 벌고","textChars":4,"textLines":1,"bbox":[700,940,110,25]}
+{"kind":"textbox","id":"sh/7qtsrm50","slide":1,"text":"441% → 333%","textPreview":"441% → 333%","textChars":11,"textLines":1,"bbox":[810,934,250,35]}
+{"kind":"textbox","id":"sh/94jexk7i","slide":1,"text":"덜 흔들리고","textPreview":"덜 흔들리고","textChars":6,"textLines":1,"bbox":[700,987,125,25]}
+{"kind":"textbox","id":"sh/o3axof6d","slide":1,"text":"21.82% → 19.37%","textPreview":"21.82% → 19.37%","textChars":15,"textLines":1,"bbox":[825,981,235,35]}
+{"kind":"textbox","id":"sh/nihwvups","slide":1,"text":"덜 떨어졌다","textPreview":"덜 떨어졌다","textChars":6,"textLines":1,"bbox":[700,1034,125,25]}
+{"kind":"textbox","id":"sh/2h8fmpo7","slide":1,"text":"-35.12% → -30.86%","textPreview":"-35.12% → -30.86%","textChars":17,"textLines":1,"bbox":[810,1028,271,35]}
+{"kind":"textbox","id":"sh/x8je14nu","slide":1,"text":"Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.","textPreview":"Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.","textChars":32,"textLines":1,"bbox":[700,1075,381,27]}
+{"kind":"shape","id":"sh/w7axsz69","slide":1,"bbox":[42,1134,7,30]}
+{"kind":"textbox","id":"sh/b61wzu5o","slide":1,"text":"03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다","textPreview":"03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다","textChars":36,"textLines":1,"bbox":[60,1130,1020,38]}
+{"kind":"textbox","id":"sh/dczep07q","slide":1,"text":"10,000개 포트폴리오의 Efficient Frontier","textPreview":"10,000개 포트폴리오의 Efficient Frontier","textChars":33,"textLines":1,"bbox":[42,1368,478,24]}
+{"kind":"textbox","id":"sh/gjy9k7up","slide":1,"text":"QQQ 99.0%","textPreview":"QQQ 99.0%","textChars":9,"textLines":1,"bbox":[636,1270,175,28]}
+{"kind":"textbox","id":"sh/h47qdcba","slide":1,"text":"TLT 55.4%","textPreview":"TLT 55.4%","textChars":9,"textLines":1,"bbox":[855,1234,175,28]}
+{"kind":"textbox","id":"sh/uhgrixcz","slide":1,"text":"SPY 44.5%","textPreview":"SPY 44.5%","textChars":9,"textLines":1,"bbox":[855,1302,175,28]}
+{"kind":"textbox","id":"sh/fip8b2t4","slide":1,"text":"최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.","textPreview":"최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.","textChars":46,"textLines":1,"bbox":[545,1368,536,29]}
+{"kind":"shape","id":"sh/sfy9gnut","slide":1,"name":"conclusion-band","bbox":[0,1415,1123,132]}
+{"kind":"textbox","id":"sh/tg7q9sve","slide":1,"text":"결론","textPreview":"결론","textChars":2,"textLines":1,"bbox":[42,1434,100,30]}
+{"kind":"textbox","id":"sh/6dw7excn","slide":1,"text":"공격적인 투자를 멈추는 것이 아니라,\n집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.","textPreview":"공격적인 투자를 멈추는 것이 아니라, | 집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.","textChars":56,"textLines":2,"bbox":[42,1468,675,66]}
+{"kind":"shape","id":"sh/7e587id8","slide":1,"bbox":[750,1438,3,82]}
+{"kind":"textbox","id":"sh/kbepcnuh","slide":1,"text":"한계\n- 동일 기간으로 최적화·평가\n- 거래비용·세금 미반영\n- 매일 고정 비중 재조정 가정\n- 3개 ETF, 무위험수익률 3% 고정","textPreview":"한계 | - 동일 기간으로 최적화·평가 | - 거래비용·세금 미반영 | - 매일 고정 비중 재조정 가정 | - 3개 ETF, 무위험수익률 3% 고정","textChars":74,"textLines":5,"bbox":[776,1432,305,96]}
+{"kind":"textbox","id":"sh/5cnq5sv2","slide":1,"text":"자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30","textPreview":"자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30","textChars":93,"textLines":1,"bbox":[42,1557,1039,22]}
+{"kind":"chart","id":"ch/1wjy1o3e","slide":1,"name":"","chartType":"line","bbox":[42,405,650,196]}
+{"kind":"chart","id":"ch/z6lgbils","slide":1,"name":"","chartType":"bar","bbox":[720,405,361,196]}
+{"kind":"chart","id":"ch/ipgjeh4b","slide":1,"name":"","chartType":"scatter","bbox":[42,883,630,229]}
+{"kind":"chart","id":"ch/4r2dgvat","slide":1,"name":"","chartType":"bar","bbox":[545,1173,536,190]}
+{"kind":"table","id":"tb/jmt4retg","slide":1,"name":"","rows":4,"cols":6,"preview":"성향 | 전략 구성 | 누적수익률 | 변동성 | MDD | Sharpe","bbox":[42,691,1039,145]}
+{"kind":"image","id":"im/xcnep0fu","slide":1,"name":"","alt":"10,000개 Monte Carlo 포트폴리오의 Efficient Frontier와 최적 포트폴리오","bbox":[42,1173,478,190]}
+{"kind":"notes","id":"nt/bf9pu9","slide":1,"text":"[Sources]\n- Local price data: C:\\Users\\Insun\\Last-break-of-Honeybadger\\etf_price.csv\n- Asset return summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week4\\week4_return_summary.csv\n- Asset risk summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week5\\week5_risk_summary.csv\n- Manual strategy summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week6\\week6_strategy_summary.csv\n- Monte Carlo simulations and optimal portfolios: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\n- Final strategy summary and recommendations: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week8\n- Efficient frontier image: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\\efficient_frontier.png\n- Underlying market-data source recorded by the project: Yahoo Finance via yfinance\n\n"}

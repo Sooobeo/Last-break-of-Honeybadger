@@ -1,0 +1,3508 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bf9pu9",
+    "id": "bf9pu9",
+    "slide": 1,
+    "layoutId": "d401b4f0-f52d-4ddf-9616-8b1eb2ad3c4b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b19a3061-2f82-4912-a02e-2461395fc5da",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F6F2",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1123,
+      "height": 1587
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Noto Sans KR"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d401b4f0-f52d-4ddf-9616-8b1eb2ad3c4b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b19a3061-2f82-4912-a02e-2461395fc5da",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b19a3061-2f82-4912-a02e-2461395fc5da",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vilgnu1w",
+      "id": "1",
+      "name": "header-band",
+      "bbox": [
+        0,
+        0,
+        1123,
+        154
+      ],
+      "geometry": "rect",
+      "fillColor": "#102A43",
+      "lineColor": "#102A43",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjuhwzih",
+      "id": "2",
+      "bbox": [
+        0,
+        150,
+        1123,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#F28E2B",
+      "lineColor": "#F28E2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3ip4j2",
+      "id": "3",
+      "name": "poster-title",
+      "bbox": [
+        42,
+        25,
+        720,
+        67
+      ],
+      "geometry": "rect",
+      "text": "벌꿀오소리의 마지막 브레이크",
+      "textPreview": "벌꿀오소리의 마지막 브레이크",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 54,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "벌꿀오소리의 마지막 브레이크"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "벌꿀오소리의 마지막 브레이크",
+          "resolvedTextStyle": {
+            "fontSize": 54,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "벌꿀오소리의 마지막 브레이크",
+              "fontSize": 54,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilczy907",
+      "id": "4",
+      "name": "poster-subtitle",
+      "bbox": [
+        45,
+        97,
+        720,
+        34
+      ],
+      "geometry": "rect",
+      "text": "SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화",
+      "textPreview": "SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Noto Sans KR",
+        "color": "#D9E2EC",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SPY·QQQ·TLT를 활용한 ETF 포트폴리오의 수익-위험 분석 및 최적화",
+              "fontSize": 23,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ml0re1s",
+      "id": "5",
+      "bbox": [
+        800,
+        28,
+        5,
+        94
+      ],
+      "geometry": "rect",
+      "fillColor": "#F28E2B",
+      "lineColor": "#F28E2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nuh0jid",
+      "id": "6",
+      "name": "research-question-header",
+      "bbox": [
+        823,
+        28,
+        258,
+        100
+      ],
+      "geometry": "rect",
+      "text": "QQQ에 집중해 얻은 추가 수익은\n더 큰 변동성과 낙폭을 감수할 만큼 컸는가?",
+      "textPreview": "QQQ에 집중해 얻은 추가 수익은 | 더 큰 변동성과 낙폭을 감수할 만큼 컸는가?",
+      "resolvedFontSize": 20.83,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.99,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QQQ에 집중해 얻은 추가"
+          },
+          {
+            "index": 2,
+            "text": "수익은"
+          },
+          {
+            "index": 3,
+            "text": "더 큰 변동성과 낙폭을 감수할"
+          },
+          {
+            "index": 4,
+            "text": "만큼 컸는가?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QQQ에 집중해 얻은 추가 수익은",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QQQ에 집중해 얻은 추가 수익은",
+              "fontSize": 21,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "더 큰 변동성과 낙폭을 감수할 만큼 컸는가?",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "더 큰 변동성과 낙폭을 감수할 만큼 컸는가?",
+              "fontSize": 21,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o3it4jy",
+      "id": "7",
+      "bbox": [
+        42,
+        176,
+        170,
+        32
+      ],
+      "geometry": "rect",
+      "text": "연구 질문",
+      "textPreview": "연구 질문",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "연구 질문"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "연구 질문",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "연구 질문",
+              "fontSize": 24,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpcz290j",
+      "id": "8",
+      "bbox": [
+        42,
+        215,
+        585,
+        40
+      ],
+      "geometry": "rect",
+      "text": "가장 많이 오른 자산에 집중하는 것이 정말 최선인가?",
+      "textPreview": "가장 많이 오른 자산에 집중하는 것이 정말 최선인가?",
+      "resolvedFontSize": 27.27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Noto Sans KR",
+        "color": "#1F2933",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.97,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "가장 많이 오른 자산에 집중하는 것이 정말 최선인가?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "가장 많이 오른 자산에 집중하는 것이 정말 최선인가?",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Noto Sans KR",
+            "color": "#1F2933",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "가장 많이 오른 자산에 집중하는 것이 정말 최선인가?",
+              "fontSize": 28,
+              "typeface": "Noto Sans KR",
+              "color": "#1F2933",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rq50ve14",
+      "id": "9",
+      "bbox": [
+        42,
+        262,
+        610,
+        52
+      ],
+      "geometry": "rect",
+      "text": "수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해\n집중과 분산 사이의 교환관계를 확인했다.",
+      "textPreview": "수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해 | 집중과 분산 사이의 교환관계를 확인했다.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해"
+          },
+          {
+            "index": 2,
+            "text": "집중과 분산 사이의 교환관계를 확인했다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "left",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "수익률뿐 아니라 변동성, 최대낙폭(MDD), Sharpe Ratio를 함께 비교해",
+              "fontSize": 18,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "left",
+              "lineSpacing": 1.1
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "집중과 분산 사이의 교환관계를 확인했다.",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "left",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "집중과 분산 사이의 교환관계를 확인했다.",
+              "fontSize": 18,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "left",
+              "lineSpacing": 1.1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu98zils",
+      "id": "10",
+      "bbox": [
+        690,
+        176,
+        190,
+        32
+      ],
+      "geometry": "rect",
+      "text": "데이터와 방법",
+      "textPreview": "데이터와 방법",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "데이터와 방법"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "데이터와 방법",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "데이터와 방법",
+              "fontSize": 24,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at0rqdkn",
+      "id": "11",
+      "bbox": [
+        690,
+        216,
+        391,
+        86
+      ],
+      "geometry": "rect",
+      "text": "SPY · QQQ · TLT  |  2015.01.02-2024.12.30\n2,515거래일  |  연율화 252일  |  무위험수익률 3%\nMonte Carlo 10,000회  |  공매도 없음  |  비중 합 100%\n개별 ETF → 위험 측정 → 전략 비교 → 최적화",
+      "textPreview": "SPY · QQQ · TLT  |  2015.01.02-2024.12.30 | 2,515거래일  |  연율화 252일  |  무위험수익률 3% | Monte Carlo 10,000회  |  공매도 없음  |  비중 합 100% | 개별 ETF →...",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#1F2933",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SPY · QQQ · TLT  |  2015.01.02-2024.12.30"
+          },
+          {
+            "index": 2,
+            "text": "2,515거래일  |  연율화 252일  |  무위험수익률 3%"
+          },
+          {
+            "index": 3,
+            "text": "Monte Carlo 10,000회  |  공매도 없음  |  비중 합 100%"
+          },
+          {
+            "index": 4,
+            "text": "개별 ETF → 위험 측정 → 전략 비교 → 최적화"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SPY · QQQ · TLT  |  2015.01.02-2024.12.30",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#1F2933",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SPY · QQQ · TLT  |  2015.01.02-2024.12.30",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#1F2933",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "2,515거래일  |  연율화 252일  |  무위험수익률 3%",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#1F2933",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2,515거래일  |  연율화 252일  |  무위험수익률 3%",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#1F2933",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Monte Carlo 10,000회  |  공매도 없음  |  비중 합 100%",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#1F2933",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Monte Carlo 10,000회  |  공매도 없음  |  비중 합 100%",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#1F2933",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "개별 ETF → 위험 측정 → 전략 비교 → 최적화",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#1F2933",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "개별 ETF → 위험 측정 → 전략 비교 → 최적화",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#1F2933",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwrq1s3y",
+      "id": "12",
+      "bbox": [
+        42,
+        317,
+        1039,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9E2EC",
+      "lineColor": "#D9E2EC",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvi9sn2d",
+      "id": "13",
+      "bbox": [
+        42,
+        339,
+        7,
+        30
+      ],
+      "geometry": "rect",
+      "fillColor": "#F28E2B",
+      "lineColor": "#F28E2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqp8vilw",
+      "id": "14",
+      "bbox": [
+        60,
+        335,
+        1020,
+        38
+      ],
+      "geometry": "rect",
+      "text": "01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다",
+      "textPreview": "01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01. QQQ는 가장 많이 올랐고, TLT는 가장 깊게 하락했다",
+              "fontSize": 27,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpgrmdkb",
+      "id": "15",
+      "bbox": [
+        42,
+        378,
+        350,
+        28
+      ],
+      "geometry": "rect",
+      "text": "성장배수 (2015년 초 $1 기준)",
+      "textPreview": "성장배수 (2015년 초 $1 기준)",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "성장배수 (2015년 초 $1 기준)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "성장배수 (2015년 초 $1 기준)",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "성장배수 (2015년 초 $1 기준)",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/1wjy1o3e",
+      "id": "16",
+      "bbox": [
+        42,
+        405,
+        650,
+        196
+      ],
+      "chartType": "line"
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ory9on2h",
+      "id": "17",
+      "bbox": [
+        720,
+        378,
+        250,
+        28
+      ],
+      "geometry": "rect",
+      "text": "최대낙폭 크기 (%)",
+      "textPreview": "최대낙폭 크기 (%)",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "최대낙폭 크기 (%)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "최대낙폭 크기 (%)",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "최대낙폭 크기 (%)",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/z6lgbils",
+      "id": "18",
+      "bbox": [
+        720,
+        405,
+        361,
+        196
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6lkryxkf",
+      "id": "19",
+      "bbox": [
+        42,
+        607,
+        1039,
+        27
+      ],
+      "geometry": "rect",
+      "text": "QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%",
+      "textPreview": "QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QQQ 누적수익률 441.24% · TLT 누적수익률 -11.29%, MDD -48.35%",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4bq14n",
+      "id": "20",
+      "bbox": [
+        42,
+        650,
+        7,
+        30
+      ],
+      "geometry": "rect",
+      "fillColor": "#F28E2B",
+      "lineColor": "#F28E2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3idcz658",
+      "id": "21",
+      "bbox": [
+        60,
+        646,
+        1020,
+        38
+      ],
+      "geometry": "rect",
+      "text": "02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다",
+      "textPreview": "02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02. 분산은 수익을 낮췄지만 집중 위험과 낙폭도 줄였다",
+              "fontSize": 27,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/jmt4retg",
+      "id": "22",
+      "bbox": [
+        42,
+        691,
+        1039,
+        145
+      ],
+      "text": "성향 | 전략 구성 | 누적수익률 | 변동성 | MDD | Sharpe\n공격형 | A · QQQ 100% | 441.24% | 21.82% | -35.12% | 0.75\n균형형 | B · SPY 50% + QQQ 50% | 333.37% | 19.37% | -30.86% | 0.70\n안정형 | C · SPY 60% + TLT 40% | 115.32% | 11.05% | -27.24% | 0.48",
+      "textPreview": "성향 | 전략 구성 | 누적수익률 | 변동성 | MDD | Sharpe | 공격형 | A · QQQ 100% | 441.24% | 21.82% | -35.12% | 0.75 | 균형형 | B · SPY 50% + QQQ 50% | 333.37% ...",
+      "rows": 4,
+      "cols": 6,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            42,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "성향",
+          "textPreview": "성향",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "성향",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "성향"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            215.17,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "전략 구성",
+          "textPreview": "전략 구성",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "전략 구성",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "전략 구성"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            388.33,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "누적수익률",
+          "textPreview": "누적수익률",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "누적수익률",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "누적수익률"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            561.5,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "변동성",
+          "textPreview": "변동성",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "변동성",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "변동성"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            734.67,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "MDD",
+          "textPreview": "MDD",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "MDD",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "MDD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 1,
+          "column": 6,
+          "bbox": [
+            907.83,
+            691,
+            173.17,
+            36.25
+          ],
+          "text": "Sharpe",
+          "textPreview": "Sharpe",
+          "fillColor": "#D9E2EC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Sharpe",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Sharpe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            42,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "공격형",
+          "textPreview": "공격형",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "공격형",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "공격형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            215.17,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "A · QQQ 100%",
+          "textPreview": "A · QQQ 100%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "A · QQQ 100%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "A · QQQ 100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            388.33,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "441.24%",
+          "textPreview": "441.24%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "441.24%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "441.24%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            561.5,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "21.82%",
+          "textPreview": "21.82%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "21.82%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "21.82%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            734.67,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "-35.12%",
+          "textPreview": "-35.12%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-35.12%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-35.12%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 2,
+          "column": 6,
+          "bbox": [
+            907.83,
+            727.25,
+            173.17,
+            36.25
+          ],
+          "text": "0.75",
+          "textPreview": "0.75",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.75",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            42,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "균형형",
+          "textPreview": "균형형",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "균형형",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "균형형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            215.17,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "B · SPY 50% + QQQ 50%",
+          "textPreview": "B · SPY 50% + QQQ 50%",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "B · SPY 50% + QQQ 50%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "B · SPY 50% + QQQ 50%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            388.33,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "333.37%",
+          "textPreview": "333.37%",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "333.37%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "333.37%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            561.5,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "19.37%",
+          "textPreview": "19.37%",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "19.37%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "19.37%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            734.67,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "-30.86%",
+          "textPreview": "-30.86%",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-30.86%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-30.86%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 3,
+          "column": 6,
+          "bbox": [
+            907.83,
+            763.5,
+            173.17,
+            36.25
+          ],
+          "text": "0.70",
+          "textPreview": "0.70",
+          "fillColor": "#E5F2F1",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.70",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.70"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            42,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "안정형",
+          "textPreview": "안정형",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "안정형",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "안정형"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            215.17,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "C · SPY 60% + TLT 40%",
+          "textPreview": "C · SPY 60% + TLT 40%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "C · SPY 60% + TLT 40%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "C · SPY 60% + TLT 40%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            388.33,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "115.32%",
+          "textPreview": "115.32%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "115.32%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "115.32%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            561.5,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "11.05%",
+          "textPreview": "11.05%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "11.05%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "11.05%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            734.67,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "-27.24%",
+          "textPreview": "-27.24%",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "-27.24%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "-27.24%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 4,
+          "column": 6,
+          "bbox": [
+            907.83,
+            799.75,
+            173.17,
+            36.25
+          ],
+          "text": "0.48",
+          "textPreview": "0.48",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.48",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.48"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kfu1gne",
+      "id": "23",
+      "bbox": [
+        42,
+        854,
+        300,
+        28
+      ],
+      "geometry": "rect",
+      "text": "연율화 위험-수익 지도  (x: 변동성, y: 수익률)",
+      "textPreview": "연율화 위험-수익 지도  (x: 변동성, y: 수익률)",
+      "resolvedFontSize": 16.1,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.95,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "연율화 위험-수익 지도  (x: 변동성, y: 수익률)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "연율화 위험-수익 지도  (x: 변동성, y: 수익률)",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "연율화 위험-수익 지도  (x: 변동성, y: 수익률)",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/ipgjeh4b",
+      "id": "24",
+      "bbox": [
+        42,
+        883,
+        630,
+        229
+      ],
+      "chartType": "scatter"
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmxc3q5k",
+      "id": "25",
+      "bbox": [
+        485,
+        900,
+        150,
+        26
+      ],
+      "geometry": "rect",
+      "text": "A ≈ Max Sharpe",
+      "textPreview": "A ≈ Max Sharpe",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Noto Sans KR",
+        "color": "#E15759",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A ≈ Max Sharpe"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A ≈ Max Sharpe",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Noto Sans KR",
+            "color": "#E15759",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A ≈ Max Sharpe",
+              "fontSize": 16,
+              "typeface": "Noto Sans KR",
+              "color": "#E15759",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sn6twbm5",
+      "id": "26",
+      "bbox": [
+        700,
+        874,
+        381,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9E2EC",
+      "lineColor": "#D9E2EC",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dofu5g3a",
+      "id": "27",
+      "bbox": [
+        700,
+        889,
+        381,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Strategy A → Strategy B",
+      "textPreview": "Strategy A → Strategy B",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Strategy A → Strategy B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Strategy A → Strategy B",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Strategy A → Strategy B",
+              "fontSize": 24,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6pkbih4v",
+      "id": "28",
+      "bbox": [
+        700,
+        940,
+        110,
+        25
+      ],
+      "geometry": "rect",
+      "text": "덜 벌고",
+      "textPreview": "덜 벌고",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "덜 벌고"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "덜 벌고",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "덜 벌고",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qtsrm50",
+      "id": "29",
+      "bbox": [
+        810,
+        934,
+        250,
+        35
+      ],
+      "geometry": "rect",
+      "text": "441% → 333%",
+      "textPreview": "441% → 333%",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Noto Sans KR",
+        "color": "#F28E2B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "441% → 333%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "441% → 333%",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Noto Sans KR",
+            "color": "#F28E2B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "441% → 333%",
+              "fontSize": 27,
+              "typeface": "Noto Sans KR",
+              "color": "#F28E2B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94jexk7i",
+      "id": "30",
+      "bbox": [
+        700,
+        987,
+        125,
+        25
+      ],
+      "geometry": "rect",
+      "text": "덜 흔들리고",
+      "textPreview": "덜 흔들리고",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "덜 흔들리고"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "덜 흔들리고",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "덜 흔들리고",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3axof6d",
+      "id": "31",
+      "bbox": [
+        825,
+        981,
+        235,
+        35
+      ],
+      "geometry": "rect",
+      "text": "21.82% → 19.37%",
+      "textPreview": "21.82% → 19.37%",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Noto Sans KR",
+        "color": "#2A7F80",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "21.82% → 19.37%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "21.82% → 19.37%",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans KR",
+            "color": "#2A7F80",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "21.82% → 19.37%",
+              "fontSize": 25,
+              "typeface": "Noto Sans KR",
+              "color": "#2A7F80",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nihwvups",
+      "id": "32",
+      "bbox": [
+        700,
+        1034,
+        125,
+        25
+      ],
+      "geometry": "rect",
+      "text": "덜 떨어졌다",
+      "textPreview": "덜 떨어졌다",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "덜 떨어졌다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "덜 떨어졌다",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "덜 떨어졌다",
+              "fontSize": 17,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2h8fmpo7",
+      "id": "33",
+      "bbox": [
+        810,
+        1028,
+        271,
+        35
+      ],
+      "geometry": "rect",
+      "text": "-35.12% → -30.86%",
+      "textPreview": "-35.12% → -30.86%",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Noto Sans KR",
+        "color": "#2A7F80",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "-35.12% → -30.86%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "-35.12% → -30.86%",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Noto Sans KR",
+            "color": "#2A7F80",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "-35.12% → -30.86%",
+              "fontSize": 23,
+              "typeface": "Noto Sans KR",
+              "color": "#2A7F80",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8je14nu",
+      "id": "34",
+      "bbox": [
+        700,
+        1075,
+        381,
+        27
+      ],
+      "geometry": "rect",
+      "text": "Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.",
+      "textPreview": "Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sharpe는 0.75에서 0.70으로 0.05 낮아졌다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sharpe는 0.75에서 0.70으로 0.05 낮아졌다.",
+              "fontSize": 16,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7axsz69",
+      "id": "35",
+      "bbox": [
+        42,
+        1134,
+        7,
+        30
+      ],
+      "geometry": "rect",
+      "fillColor": "#F28E2B",
+      "lineColor": "#F28E2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b61wzu5o",
+      "id": "36",
+      "bbox": [
+        60,
+        1130,
+        1020,
+        38
+      ],
+      "geometry": "rect",
+      "text": "03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다",
+      "textPreview": "03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Noto Sans KR",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Noto Sans KR",
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03. 과거 데이터의 최대 Sharpe는 QQQ 99%로 수렴했다",
+              "fontSize": 27,
+              "typeface": "Noto Sans KR",
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xcnep0fu",
+      "id": "37",
+      "bbox": [
+        42,
+        1173,
+        478,
+        190
+      ],
+      "alt": "10,000개 Monte Carlo 포트폴리오의 Efficient Frontier와 최적 포트폴리오",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "539066db-de53-436c-8380-ca45ec4911d7",
+        "contentType": "image/png",
+        "byteLength": 211603
+      }
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dczep07q",
+      "id": "38",
+      "bbox": [
+        42,
+        1368,
+        478,
+        24
+      ],
+      "geometry": "rect",
+      "text": "10,000개 포트폴리오의 Efficient Frontier",
+      "textPreview": "10,000개 포트폴리오의 Efficient Frontier",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10,000개 포트폴리오의 Efficient Frontier"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10,000개 포트폴리오의 Efficient Frontier",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10,000개 포트폴리오의 Efficient Frontier",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/4r2dgvat",
+      "id": "39",
+      "bbox": [
+        545,
+        1173,
+        536,
+        190
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjy9k7up",
+      "id": "40",
+      "bbox": [
+        636,
+        1270,
+        175,
+        28
+      ],
+      "geometry": "rect",
+      "text": "QQQ 99.0%",
+      "textPreview": "QQQ 99.0%",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "QQQ 99.0%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "QQQ 99.0%",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "QQQ 99.0%",
+              "fontSize": 16,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h47qdcba",
+      "id": "41",
+      "bbox": [
+        855,
+        1234,
+        175,
+        28
+      ],
+      "geometry": "rect",
+      "text": "TLT 55.4%",
+      "textPreview": "TLT 55.4%",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TLT 55.4%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TLT 55.4%",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TLT 55.4%",
+              "fontSize": 16,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhgrixcz",
+      "id": "42",
+      "bbox": [
+        855,
+        1302,
+        175,
+        28
+      ],
+      "geometry": "rect",
+      "text": "SPY 44.5%",
+      "textPreview": "SPY 44.5%",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SPY 44.5%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SPY 44.5%",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SPY 44.5%",
+              "fontSize": 16,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fip8b2t4",
+      "id": "43",
+      "bbox": [
+        545,
+        1368,
+        536,
+        29
+      ],
+      "geometry": "rect",
+      "text": "최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.",
+      "textPreview": "최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "최적화는 새로운 분산 조합보다 분석 기간 동안 우수했던 QQQ의 성과를 재확인했다.",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfy9gnut",
+      "id": "44",
+      "name": "conclusion-band",
+      "bbox": [
+        0,
+        1415,
+        1123,
+        132
+      ],
+      "geometry": "rect",
+      "fillColor": "#102A43",
+      "lineColor": "#102A43",
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tg7q9sve",
+      "id": "45",
+      "bbox": [
+        42,
+        1434,
+        100,
+        30
+      ],
+      "geometry": "rect",
+      "text": "결론",
+      "textPreview": "결론",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Noto Sans KR",
+        "color": "#F28E2B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "결론"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "결론",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Noto Sans KR",
+            "color": "#F28E2B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "결론",
+              "fontSize": 23,
+              "typeface": "Noto Sans KR",
+              "color": "#F28E2B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dw7excn",
+      "id": "46",
+      "bbox": [
+        42,
+        1468,
+        675,
+        66
+      ],
+      "geometry": "rect",
+      "text": "공격적인 투자를 멈추는 것이 아니라,\n집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.",
+      "textPreview": "공격적인 투자를 멈추는 것이 아니라, | 집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Noto Sans KR",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "공격적인 투자를 멈추는 것이 아니라,"
+          },
+          {
+            "index": 2,
+            "text": "집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "공격적인 투자를 멈추는 것이 아니라,",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "공격적인 투자를 멈추는 것이 아니라,",
+              "fontSize": 23,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Noto Sans KR",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "집중으로 얻는 추가 수익과 감수할 하락폭을 함께 확인해야 한다.",
+              "fontSize": 23,
+              "typeface": "Noto Sans KR",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7e587id8",
+      "id": "47",
+      "bbox": [
+        750,
+        1438,
+        3,
+        82
+      ],
+      "geometry": "rect",
+      "fillColor": "#486581",
+      "lineColor": "#486581",
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbepcnuh",
+      "id": "48",
+      "bbox": [
+        776,
+        1432,
+        305,
+        96
+      ],
+      "geometry": "rect",
+      "text": "한계\n- 동일 기간으로 최적화·평가\n- 거래비용·세금 미반영\n- 매일 고정 비중 재조정 가정\n- 3개 ETF, 무위험수익률 3% 고정",
+      "textPreview": "한계 | - 동일 기간으로 최적화·평가 | - 거래비용·세금 미반영 | - 매일 고정 비중 재조정 가정 | - 3개 ETF, 무위험수익률 3% 고정",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Noto Sans KR",
+        "color": "#D9E2EC",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "한계"
+          },
+          {
+            "index": 2,
+            "text": "- 동일 기간으로 최적화·평가"
+          },
+          {
+            "index": 3,
+            "text": "- 거래비용·세금 미반영"
+          },
+          {
+            "index": 4,
+            "text": "- 매일 고정 비중 재조정 가정"
+          },
+          {
+            "index": 5,
+            "text": "- 3개 ETF, 무위험수익률 3% 고정"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "한계",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "한계",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- 동일 기간으로 최적화·평가",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 동일 기간으로 최적화·평가",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- 거래비용·세금 미반영",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 거래비용·세금 미반영",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- 매일 고정 비중 재조정 가정",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 매일 고정 비중 재조정 가정",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 3개 ETF, 무위험수익률 3% 고정",
+          "lineSpacingPercent": 102000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Noto Sans KR",
+            "color": "#D9E2EC",
+            "alignment": "left",
+            "lineSpacing": 1.02
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 3개 ETF, 무위험수익률 3% 고정",
+              "fontSize": 15,
+              "typeface": "Noto Sans KR",
+              "color": "#D9E2EC",
+              "alignment": "left",
+              "lineSpacing": 1.02
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cnq5sv2",
+      "id": "49",
+      "bbox": [
+        42,
+        1557,
+        1039,
+        22
+      ],
+      "geometry": "rect",
+      "text": "자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30",
+      "textPreview": "자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Noto Sans KR",
+        "color": "#52606D",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Noto Sans KR",
+            "color": "#52606D",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "자료: Yahoo Finance via yfinance  |  분석: Python, pandas, NumPy  |  분석 기간: 2015.01.02-2024.12.30",
+              "fontSize": 13,
+              "typeface": "Noto Sans KR",
+              "color": "#52606D",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
