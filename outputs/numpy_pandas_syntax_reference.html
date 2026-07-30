@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>honeybadger 문법정리</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #1f2937;
+      --muted: #64748b;
+      --border: #dbe3ef;
+      --head: #0f172a;
+      --accent: #2563eb;
+      --code-bg: #0f172a;
+      --code-text: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 40px 24px 56px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      color: var(--head);
+      font-size: 34px;
+      line-height: 1.25;
+    }
+    h2 {
+      margin: 30px 0 12px;
+      color: var(--head);
+      font-size: 24px;
+    }
+    .meta, .note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .card, .checklist {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+    }
+    .card strong {
+      display: block;
+      color: var(--head);
+      font-size: 18px;
+    }
+    .card span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      min-width: 980px;
+      border-collapse: collapse;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      padding: 13px 14px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #eaf1ff;
+      color: var(--head);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: 0; }
+    td:first-child {
+      width: 260px;
+      font-weight: 700;
+      color: var(--head);
+    }
+    td:nth-child(2) { width: 360px; }
+    code, pre {
+      font-family: Consolas, "SFMono-Regular", Menlo, Monaco, monospace;
+    }
+    pre {
+      margin: 0;
+      padding: 10px 12px;
+      overflow-x: auto;
+      border-radius: 10px;
+      background: var(--code-bg);
+      color: var(--code-text);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .badge {
+      display: inline-block;
+      margin-right: 6px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    ul { margin: 0; padding-left: 20px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>honeybadger 문법정리</h1>
+    <p class="meta">대상: <code>Onboarding.ipynb</code>, <code>scripts/*.py</code> 5개 파일. 제외: <code>.git</code>, <code>venv</code>, <code>.venv</code>.</p>
+    <p class="meta">예시는 원본 코드 재구성이 아니라 데이터사이언스 학회 면접 코드 테스트 대비용 단순 계산식과 결과값으로 정리했다.</p>
+  </header>
+
+  <div class="summary">
+    <div class="card">
+      <strong>pandas</strong>
+      <span>CSV 입출력, DataFrame/Series 생성, 선택, 집계, 시계열 수익률, 결측치, 표 변환</span>
+    </div>
+    <div class="card">
+      <strong>NumPy</strong>
+      <span>난수, 배열 생성, 행렬곱, 차원 선택, broadcasting, 최댓값/최솟값 인덱스</span>
+    </div>
+    <div class="card">
+      <strong>보강 기준</strong>
+      <span>AST 재점검으로 <code>axis</code>, <code>broadcasting</code>, <code>to_numpy</code>, 2차원 slicing까지 포함</span>
+    </div>
+  </div>
+
+  <section class="checklist">
+    <h2>누락 점검 결과</h2>
+    <ul>
+      <li>메서드 체인만 보던 기존 정리에서 빠지기 쉬운 <code>axis=1</code>, 스칼라 broadcasting, pandas 라벨 정렬 broadcasting을 별도 항목으로 추가했다.</li>
+      <li><code>to_numpy()</code>, <code>values</code>, <code>ndarray</code> slicing, fancy indexing, <code>@</code> 행렬곱처럼 차원 제어와 관련된 문법을 NumPy/pandas 양쪽에 포함했다.</li>
+      <li><code>DatetimeIndex.year</code>, <code>Series.dt.strftime()</code>, <code>Timestamp.date()</code>처럼 날짜 accessor 문법도 포함했다.</li>
+      <li>문법 단위로 중복 제거했으며, 같은 문법의 반복 호출은 한 항목으로 묶었다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="badge">pandas</span>문법 목록</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>문법명</th>
+            <th>기능</th>
+            <th>예시 코드와 결과</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>import pandas as pd</code></td>
+            <td>pandas를 <code>pd</code> 별칭으로 불러온다.</td>
+            <td><pre><code>import pandas as pd
+# 결과: pd.DataFrame, pd.Series 등을 pd.으로 사용 가능</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.DataFrame</code> 타입 힌트</td>
+            <td>함수 인자나 반환값이 DataFrame임을 표시한다.</td>
+            <td><pre><code>def f(x: pd.DataFrame) -&gt; pd.DataFrame:
+    return x
+# 결과: 실행값 변화 없음. 타입 의도만 표시</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.Timestamp</code> 타입 힌트</td>
+            <td>날짜/시간 단일 값 타입을 표시한다.</td>
+            <td><pre><code>def f(start: pd.Timestamp):
+    return start.year
+# f(pd.Timestamp("2024-05-01")) 결과: 2024</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.read_csv()</code></td>
+            <td>CSV 파일을 읽어 DataFrame으로 만든다. <code>index_col</code>, <code>parse_dates</code>로 날짜 인덱스를 만들 수 있다.</td>
+            <td><pre><code>df = pd.read_csv("score.csv", index_col="name")
+# score.csv: name,score / A,80 / B,90
+# 결과: index A,B / column score</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.DataFrame()</code></td>
+            <td>딕셔너리, 리스트, 인덱스, 컬럼으로 표 데이터를 만든다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2], "y": [10, 20]})
+# 결과:
+#    x   y
+# 0  1  10
+# 1  2  20</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.DataFrame(index=...)</code></td>
+            <td>지정한 인덱스를 가진 빈 DataFrame을 만든 뒤 컬럼을 채운다.</td>
+            <td><pre><code>df = pd.DataFrame(index=["A", "B"])
+df["score"] = [80, 90]
+# 결과: A=80, B=90인 score 컬럼 생성</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.Series()</code></td>
+            <td>라벨이 있는 1차원 데이터를 만든다.</td>
+            <td><pre><code>s = pd.Series({"math": 80, "stat": 90})
+# 결과:
+# math    80
+# stat    90</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>pd.concat()</code></td>
+            <td>DataFrame/Series를 이어 붙인다.</td>
+            <td><pre><code>a = pd.DataFrame({"x": [1]})
+b = pd.DataFrame({"x": [2]})
+pd.concat([a, b])
+# 결과: x 값이 1, 2인 두 행</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.head()</code></td>
+            <td>앞쪽 일부 행을 확인한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2, 3]})
+df.head(2)
+# 결과: x=1, x=2 두 행</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.copy()</code></td>
+            <td>원본과 분리된 복사본을 만든다.</td>
+            <td><pre><code>a = pd.DataFrame({"x": [1]})
+b = a.copy()
+b.loc[0, "x"] = 99
+# 결과: a.loc[0,"x"]는 1, b.loc[0,"x"]는 99</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.to_csv()</code></td>
+            <td>DataFrame을 CSV 파일로 저장한다. <code>index=False</code>면 인덱스를 제외한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2]})
+df.to_csv("out.csv", index=False)
+# 결과 파일 내용:
+# x
+# 1
+# 2</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.to_string()</code></td>
+            <td>DataFrame을 문자열로 바꿔 출력한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2]})
+df.to_string(index=False)
+# 결과:
+#  x
+#  1
+#  2</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>df["col"]</code></td>
+            <td>단일 컬럼을 Series로 선택한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80, 90]})
+df["score"]
+# 결과: 0=80, 1=90인 Series</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>df[[...]]</code></td>
+            <td>여러 컬럼을 DataFrame으로 선택한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1], "y": [2], "z": [3]})
+df[["x", "z"]]
+# 결과: x=1, z=3 컬럼만 남음</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>df[col] = values</code></td>
+            <td>새 컬럼을 만들거나 기존 컬럼을 갱신한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2]})
+df["double"] = df["x"] * 2
+# 결과: double 컬럼은 2, 4</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.loc[]</code></td>
+            <td>라벨 이름으로 행·열을 선택한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80, 90]}, index=["A", "B"])
+df.loc["B", "score"]
+# 결과: 90</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.iloc[]</code></td>
+            <td>정수 위치로 행·열을 선택한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80, 90]})
+df.iloc[-1, 0]
+# 결과: 90</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.index</code></td>
+            <td>행 인덱스에 접근한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2]}, index=["A", "B"])
+list(df.index)
+# 결과: ["A", "B"]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Index.min()</code>, <code>Index.max()</code></td>
+            <td>인덱스의 최소/최대 값을 구한다.</td>
+            <td><pre><code>idx = pd.Index([2021, 2024, 2023])
+idx.min(), idx.max()
+# 결과: (2021, 2024)</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Timestamp.date()</code></td>
+            <td>Timestamp에서 날짜 부분만 꺼낸다.</td>
+            <td><pre><code>t = pd.Timestamp("2024-05-01 09:30")
+t.date()
+# 결과: datetime.date(2024, 5, 1)</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DatetimeIndex.year</code></td>
+            <td>날짜 인덱스에서 연도만 추출한다.</td>
+            <td><pre><code>idx = pd.to_datetime(["2023-01-01", "2024-02-01"])
+idx.year.tolist()
+# 결과: [2023, 2024]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.columns</code></td>
+            <td>컬럼 이름에 접근하거나 새 이름으로 바꾼다.</td>
+            <td><pre><code>df = pd.DataFrame([[1, 2]], columns=["a", "b"])
+df.columns = ["x", "y"]
+# 결과: 컬럼명이 x, y로 변경</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Index.tolist()</code></td>
+            <td>Index를 Python 리스트로 변환한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80]})
+df.columns.tolist()
+# 결과: ["score"]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.values</code></td>
+            <td>값만 NumPy 배열로 가져온다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2]})
+df.values
+# 결과: array([[1], [2]])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.to_numpy()</code></td>
+            <td>DataFrame/Series를 NumPy 배열로 변환한다. pandas 라벨을 제거하고 순수 배열 연산에 쓴다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2], "y": [3, 4]})
+df.to_numpy()
+# 결과: array([[1, 3], [2, 4]])  # shape=(2, 2)</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.T</code></td>
+            <td>행과 열을 전치한다.</td>
+            <td><pre><code>df = pd.DataFrame({"A": [1, 2], "B": [3, 4]})
+df.T
+# 결과:
+# A 행: 1, 2
+# B 행: 3, 4</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.rename()</code></td>
+            <td>행 또는 열 라벨을 바꾼다.</td>
+            <td><pre><code>df = pd.DataFrame({"old": [1]})
+df.rename(columns={"old": "new"})
+# 결과: 컬럼명 new</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.drop()</code></td>
+            <td>지정한 행이나 열을 제거한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1], "drop_me": [9]})
+df.drop(columns=["drop_me"])
+# 결과: x 컬럼만 남음</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.sort_index()</code></td>
+            <td>인덱스 순서로 정렬한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [2, 1]}, index=["B", "A"])
+df.sort_index()
+# 결과: A 행이 먼저, B 행이 다음</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.sort_values()</code></td>
+            <td>값 기준으로 정렬한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80, 95]}, index=["A", "B"])
+df.sort_values("score", ascending=False)
+# 결과: B(95), A(80) 순서</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.select_dtypes()</code></td>
+            <td>숫자형 등 특정 dtype 컬럼만 고른다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80], "name": ["A"]})
+df.select_dtypes("number").columns.tolist()
+# 결과: ["score"]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.astype()</code></td>
+            <td>Series의 자료형을 변환한다.</td>
+            <td><pre><code>s = pd.Series(["1", "2"])
+s.astype(int).sum()
+# 결과: 3</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.map()</code></td>
+            <td>Series 값을 함수나 매핑으로 치환한다.</td>
+            <td><pre><code>s = pd.Series(["A", "B"])
+s.map({"A": 10, "B": 20})
+# 결과: 0=10, 1=20</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.iterrows()</code></td>
+            <td>행을 하나씩 순회한다.</td>
+            <td><pre><code>df = pd.DataFrame({"score": [80, 90]}, index=["A", "B"])
+[name for name, row in df.iterrows() if row["score"] &gt;= 90]
+# 결과: ["B"]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.isna()</code></td>
+            <td>결측치 위치를 True/False로 표시한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, None]})
+df.isna()
+# 결과: False, True</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.any()</code></td>
+            <td>True가 하나라도 있는지 검사한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [False, True]})
+df.any().any()
+# 결과: True</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.sum(axis=...)</code></td>
+            <td>합계를 구한다. <code>axis=1</code>은 행 방향 합계, <code>axis=0</code>은 컬럼 방향 합계다.</td>
+            <td><pre><code>df = pd.DataFrame({"a": [1, 2], "b": [10, 20]})
+df.sum(axis=1).tolist()
+# 결과: [11, 22]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.to_dict()</code></td>
+            <td>Series를 딕셔너리로 변환한다.</td>
+            <td><pre><code>s = pd.Series([2, 1], index=["A", "B"])
+s.to_dict()
+# 결과: {"A": 2, "B": 1}</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.pct_change()</code></td>
+            <td>이전 행 대비 변화율을 계산한다.</td>
+            <td><pre><code>price = pd.Series([100, 110, 99])
+price.pct_change().round(2).tolist()
+# 결과: [nan, 0.10, -0.10]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.dropna()</code></td>
+            <td>결측치가 있는 행을 제거한다.</td>
+            <td><pre><code>s = pd.Series([None, 0.10, -0.10])
+s.dropna().tolist()
+# 결과: [0.10, -0.10]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.cumprod()</code></td>
+            <td>누적 곱을 계산한다. 수익률을 누적 수익률로 바꿀 때 쓴다.</td>
+            <td><pre><code>r = pd.Series([0.10, -0.10])
+(1 + r).cumprod().round(2).tolist()
+# 계산: 1.1, 1.1*0.9
+# 결과: [1.10, 0.99]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.cummax()</code></td>
+            <td>현재 시점까지의 누적 최댓값을 계산한다.</td>
+            <td><pre><code>wealth = pd.Series([1.0, 1.2, 1.1])
+wealth.cummax().tolist()
+# 결과: [1.0, 1.2, 1.2]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.rolling()</code></td>
+            <td>이동 윈도우 객체를 만든다.</td>
+            <td><pre><code>s = pd.Series([1, 2, 3, 4])
+s.rolling(2).mean().tolist()
+# 결과: [nan, 1.5, 2.5, 3.5]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Rolling.mean()</code></td>
+            <td>이동평균을 계산한다.</td>
+            <td><pre><code>s = pd.Series([10, 20, 30])
+s.rolling(2).mean().tolist()
+# 결과: [nan, 15.0, 25.0]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Rolling.std()</code></td>
+            <td>이동 표준편차를 계산한다.</td>
+            <td><pre><code>s = pd.Series([1, 3, 5])
+s.rolling(2).std().round(2).tolist()
+# 결과: [nan, 1.41, 1.41]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.corr()</code></td>
+            <td>컬럼 간 상관계수를 계산한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2, 3], "y": [2, 4, 6]})
+df.corr().loc["x", "y"]
+# 결과: 1.0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.cov()</code></td>
+            <td>컬럼 간 공분산을 계산한다.</td>
+            <td><pre><code>df = pd.DataFrame({"x": [1, 2, 3], "y": [2, 4, 6]})
+df.cov().loc["x", "y"]
+# 결과: 2.0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.mean()</code></td>
+            <td>평균을 계산한다.</td>
+            <td><pre><code>s = pd.Series([80, 90, 100])
+s.mean()
+# 결과: 90.0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.std()</code></td>
+            <td>표본 표준편차를 계산한다.</td>
+            <td><pre><code>s = pd.Series([80, 90, 100])
+s.std()
+# 결과: 10.0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.min()</code>, <code>Series.min()</code></td>
+            <td>최솟값을 계산한다.</td>
+            <td><pre><code>s = pd.Series([3, 1, 5])
+s.min()
+# 결과: 1</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.max()</code>, <code>Series.max()</code></td>
+            <td>최댓값을 계산한다.</td>
+            <td><pre><code>s = pd.Series([3, 1, 5])
+s.max()
+# 결과: 5</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.idxmin()</code>, <code>DataFrame.idxmin()</code></td>
+            <td>최솟값이 위치한 라벨을 반환한다.</td>
+            <td><pre><code>s = pd.Series([3, 1, 5], index=["A", "B", "C"])
+s.idxmin()
+# 결과: "B"</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.idxmax()</code>, <code>DataFrame.idxmax()</code></td>
+            <td>최댓값이 위치한 라벨을 반환한다.</td>
+            <td><pre><code>s = pd.Series([3, 1, 5], index=["A", "B", "C"])
+s.idxmax()
+# 결과: "C"</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.round()</code></td>
+            <td>숫자를 지정 자릿수로 반올림한다.</td>
+            <td><pre><code>s = pd.Series([0.1234, 0.9876])
+s.round(2).tolist()
+# 결과: [0.12, 0.99]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.abs()</code></td>
+            <td>절댓값을 계산한다.</td>
+            <td><pre><code>s = pd.Series([-3, 2])
+s.abs().tolist()
+# 결과: [3, 2]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.mask()</code></td>
+            <td>조건이 True인 위치를 다른 값으로 바꾼다.</td>
+            <td><pre><code>s = pd.Series([0.001, 0.02])
+s.mask(s.abs() &lt; 0.005, 0).tolist()
+# 결과: [0.0, 0.02]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.where()</code></td>
+            <td>조건이 True인 값만 유지하고 나머지는 결측치로 만든다.</td>
+            <td><pre><code>s = pd.Series([0.1, -0.2, -0.3])
+s.where(s &lt; 0).mean()
+# 결과: -0.25</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Series.dt.strftime()</code></td>
+            <td>datetime Series를 문자열 형식으로 변환한다.</td>
+            <td><pre><code>s = pd.Series(pd.to_datetime(["2024-01-02"]))
+s.dt.strftime("%Y-%m-%d").tolist()
+# 결과: ["2024-01-02"]</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.groupby()</code></td>
+            <td>기준별로 데이터를 그룹화한다.</td>
+            <td><pre><code>df = pd.DataFrame({"year": [2023, 2023, 2024], "score": [80, 90, 100]})
+df.groupby("year")["score"].mean()
+# 결과: 2023=85.0, 2024=100.0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>GroupBy.apply()</code></td>
+            <td>그룹마다 사용자 정의 계산을 적용한다.</td>
+            <td><pre><code>df = pd.DataFrame({"g": ["A", "A", "B"], "x": [1, 2, 10]})
+df.groupby("g")["x"].apply(lambda s: s.max() - s.min())
+# 결과: A=1, B=0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>DataFrame.prod()</code></td>
+            <td>곱을 계산한다.</td>
+            <td><pre><code>r = pd.Series([0.1, 0.2])
+(1 + r).prod() - 1
+# 계산: 1.1 * 1.2 - 1
+# 결과: 0.32</code></pre></td>
+          </tr>
+          <tr>
+            <td>pandas 벡터 연산</td>
+            <td>Series/DataFrame 전체에 사칙연산을 한 번에 적용한다.</td>
+            <td><pre><code>s = pd.Series([100, 110])
+s / s.iloc[0] * 100
+# 결과: [100.0, 110.0]</code></pre></td>
+          </tr>
+          <tr>
+            <td>pandas 불리언 연산</td>
+            <td>조건식을 전체 값에 적용해 True/False를 만들고 비율 계산에 활용한다.</td>
+            <td><pre><code>s = pd.Series([-1, 2, 3])
+(s &gt; 0).mean()
+# 결과: 0.666666...  # 양수 비율 2/3</code></pre></td>
+          </tr>
+          <tr>
+            <td>pandas broadcasting</td>
+            <td>스칼라 또는 Series를 DataFrame 전체에 맞춰 자동 확장한다.</td>
+            <td><pre><code>df = pd.DataFrame({"A": [1, 2], "B": [10, 20]})
+df * 10
+# 결과: A=[10,20], B=[100,200]</code></pre></td>
+          </tr>
+          <tr>
+            <td>pandas 라벨 정렬 연산</td>
+            <td>DataFrame과 Series 연산 시 컬럼 라벨을 기준으로 맞춰 계산한다.</td>
+            <td><pre><code>df = pd.DataFrame({"SPY": [0.1], "QQQ": [0.2]})
+w = pd.Series({"QQQ": 0.7, "SPY": 0.3})
+(df * w).sum(axis=1)
+# 계산: 0.1*0.3 + 0.2*0.7
+# 결과: 0.17</code></pre></td>
+          </tr>
+          <tr>
+            <td>메서드 체이닝</td>
+            <td>중간 변수를 줄이고 여러 연산을 순서대로 연결한다.</td>
+            <td><pre><code>s = pd.Series([100, 110, None])
+s.pct_change().dropna().round(2).tolist()
+# 결과: [0.10, 0.00]</code></pre></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="badge">NumPy</span>문법 목록</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>문법명</th>
+            <th>기능</th>
+            <th>예시 코드와 결과</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>import numpy as np</code></td>
+            <td>NumPy를 <code>np</code> 별칭으로 불러온다.</td>
+            <td><pre><code>import numpy as np
+# 결과: np.arange, np.sqrt 등 사용 가능</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.ndarray</code> 타입 힌트</td>
+            <td>값이 NumPy 배열임을 표시한다.</td>
+            <td><pre><code>def f(x: np.ndarray) -&gt; np.ndarray:
+    return x * 2
+# f(np.array([1,2])) 결과: array([2, 4])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.random.default_rng()</code></td>
+            <td>재현 가능한 난수 생성기를 만든다.</td>
+            <td><pre><code>rng = np.random.default_rng(42)
+rng.integers(1, 10, size=3)
+# 결과 예: array([1, 7, 6])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>Generator.dirichlet()</code></td>
+            <td>합이 1인 랜덤 비중 벡터를 만든다.</td>
+            <td><pre><code>rng = np.random.default_rng(0)
+w = rng.dirichlet(np.ones(3), size=2)
+w.sum(axis=1).round(6)
+# 결과: array([1., 1.])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.ones()</code></td>
+            <td>모든 값이 1인 배열을 만든다.</td>
+            <td><pre><code>np.ones(3)
+# 결과: array([1., 1., 1.])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.zeros()</code></td>
+            <td>모든 값이 0인 배열을 만든다.</td>
+            <td><pre><code>np.zeros(4)
+# 결과: array([0., 0., 0., 0.])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.arange()</code></td>
+            <td>연속된 정수 배열을 만든다.</td>
+            <td><pre><code>np.arange(1, 5)
+# 결과: array([1, 2, 3, 4])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.sqrt()</code></td>
+            <td>제곱근을 계산한다.</td>
+            <td><pre><code>np.sqrt(np.array([4, 9, 16]))
+# 결과: array([2., 3., 4.])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.einsum()</code></td>
+            <td>지정한 차원 규칙대로 곱하고 합산한다. 포트폴리오 분산 <code>wᵀΣw</code>를 여러 행에 대해 한 번에 계산할 수 있다.</td>
+            <td><pre><code>w = np.array([[0.5, 0.5], [1.0, 0.0]])
+cov = np.array([[4, 0], [0, 9]])
+np.einsum("ij,jk,ik-&gt;i", w, cov, w)
+# 계산: [0.25*4 + 0.25*9, 1*4]
+# 결과: array([3.25, 4.0])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.argmax()</code></td>
+            <td>최댓값의 위치 인덱스를 반환한다.</td>
+            <td><pre><code>x = np.array([0.1, 0.5, 0.3])
+np.argmax(x)
+# 결과: 1</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>np.argmin()</code></td>
+            <td>최솟값의 위치 인덱스를 반환한다.</td>
+            <td><pre><code>x = np.array([0.1, 0.5, 0.3])
+np.argmin(x)
+# 결과: 0</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>ndarray @ ndarray</code></td>
+            <td>행렬곱을 수행한다.</td>
+            <td><pre><code>w = np.array([[0.6, 0.4], [0.2, 0.8]])
+r = np.array([10, 20])
+w @ r
+# 계산: [0.6*10+0.4*20, 0.2*10+0.8*20]
+# 결과: array([14., 18.])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>ndarray</code> 2차원 slicing</td>
+            <td>행과 열을 위치 기준으로 선택한다.</td>
+            <td><pre><code>a = np.array([[1, 2, 3], [4, 5, 6]])
+a[:, 1]
+# 결과: array([2, 5])</code></pre></td>
+          </tr>
+          <tr>
+            <td><code>ndarray</code> fancy indexing</td>
+            <td>리스트/배열로 여러 위치를 한 번에 선택한다.</td>
+            <td><pre><code>a = np.array([[10, 20], [30, 40], [50, 60]])
+a[[0, 2], 1]
+# 결과: array([20, 60])</code></pre></td>
+          </tr>
+          <tr>
+            <td>NumPy 스칼라 broadcasting</td>
+            <td>스칼라 값을 배열 전체에 자동 확장해 계산한다.</td>
+            <td><pre><code>x = np.array([1, 2, 3])
+x * 100
+# 결과: array([100, 200, 300])</code></pre></td>
+          </tr>
+          <tr>
+            <td>NumPy 배열 broadcasting</td>
+            <td>호환 가능한 차원을 자동 확장해 계산한다.</td>
+            <td><pre><code>a = np.array([[1, 2], [3, 4]])
+b = np.array([10, 100])
+a * b
+# 결과: array([[10, 200], [30, 400]])</code></pre></td>
+          </tr>
+          <tr>
+            <td>NumPy 벡터 연산</td>
+            <td>배열 전체에 사칙연산을 한 번에 적용한다.</td>
+            <td><pre><code>returns = np.array([0.10, 0.20])
+risk_free = 0.03
+vol = np.array([0.20, 0.40])
+(returns - risk_free) / vol
+# 결과: array([0.35, 0.425])</code></pre></td>
+          </tr>
+          <tr>
+            <td>차원 축 <code>axis</code></td>
+            <td>집계 방향을 지정한다. <code>axis=0</code>은 열 방향, <code>axis=1</code>은 행 방향 집계다.</td>
+            <td><pre><code>a = np.array([[1, 2, 3], [4, 5, 6]])
+a.sum(axis=1)
+# 결과: array([6, 15])</code></pre></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="note">작성 기준: 폴더 내 <code>.ipynb</code>와 <code>.py</code>에서 확인된 NumPy/pandas 사용 패턴을 AST 기반으로 다시 확인하고, 문법 단위로 중복 제거했다.</p>
+</main>
+</body>
+</html>
