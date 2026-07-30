@@ -1,0 +1,30 @@
+Poster v3 QA
+
+1. Numeric consistency — PASS
+- A→B annualized-return cost: 2.73%p
+- A→B volatility reduction: 2.45%p
+- A→B MDD improvement: 4.26%p
+- C vs Min Volatility volatility difference: 0.76%p
+- C vs Min Volatility cumulative-return advantage: 39.68%p
+- C vs Min Volatility MDD advantage: 1.96%p
+- All six derived values were recalculated from week6/week7 CSV files and matched poster text.
+
+2. Logical consistency — PASS
+- Opening question defines diversification as an explicit cost–benefit decision.
+- The first chart separates volatility from maximum drawdown and establishes the main finding.
+- The second chart quantifies the price and benefit of moving from Strategy A to B.
+- The third chart explains why in-sample optimization reproduced QQQ concentration.
+- The conclusion resolves the research question without claiming one universal best strategy.
+
+3. Importance and hierarchy — PASS
+- Removed the strategy table and non-critical asset-growth charts.
+- Largest visual: cumulative return versus MDD decision map.
+- Second visual: A→B return cost versus risk reduction.
+- Supporting visual: optimized portfolio weights.
+- Highest-priority findings are repeated once in concise callouts: “minimum volatility is not minimum loss,” Strategy B’s explicit trade-off, and the period-specific nature of QQQ 99%.
+
+4. Visual QA — PASS
+- A3 portrait, one slide.
+- Actual PowerPoint PNG render inspected at 1123 × 1587.
+- No unintended clipping, overlap, or unreadable chart label observed in the final render.
+- No PDF created.
