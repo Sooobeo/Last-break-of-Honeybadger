@@ -1,0 +1,23 @@
+Poster v7 QA
+
+Economic interpretation — PASS
+- Defines Strategy A as concentrated exposure to the QQQ growth premium.
+- Explains the higher expected return as compensation for concentrated technology/growth-factor risk.
+- Defines Strategy B as paying an opportunity cost in foregone growth premium to reduce QQQ-specific concentration risk.
+- Explicitly states that B remains fully invested in equities and therefore does not insure against broad market risk.
+- Avoids claiming that B universally dominates A; notes that A had slightly better in-sample risk-adjusted performance.
+- Frames the choice as unconstrained return maximization (A) versus return maximization under a drawdown constraint (B).
+
+Drawdown budget — PASS
+- Defines drawdown budget as the largest peak-to-trough loss that can be sustained without forced selling caused by liquidity needs, debt service, or the investment horizon.
+- Provides a sample-based decision rule:
+  * About 35% or more: A is historically feasible.
+  * About 31–35%: B is historically feasible while A is not.
+  * Below about 31%: neither A nor B satisfies the constraint.
+- Clearly states that these thresholds are historical starting points, not future guarantees.
+
+Visual QA — PASS
+- A3 portrait, one slide.
+- Actual PowerPoint PNG render inspected at 1123 × 1587.
+- No unintended clipping or overlap observed.
+- No PDF created.

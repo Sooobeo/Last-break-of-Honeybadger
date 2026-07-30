@@ -1,0 +1,57 @@
+{"kind":"deck","id":"pr/hw50zv","name":"Deck"}
+{"kind":"layout","layoutId":"590dcd6b-b08c-4930-9240-34bfc9e8090f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ea7a2d77-1c50-416b-8d05-e1449475c5ec","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/koj8pm","slide":1,"title":"벌꿀오소리의 마지막 브레이크","textShapes":33}
+{"kind":"shape","id":"sh/vydkbq1g","slide":1,"name":"header-band","bbox":[0,0,1123,145]}
+{"kind":"shape","id":"sh/wzmlkv21","slide":1,"bbox":[0,141,1123,4]}
+{"kind":"textbox","id":"sh/h0vmd0jm","slide":1,"name":"poster-title","text":"벌꿀오소리의 마지막 브레이크","textPreview":"벌꿀오소리의 마지막 브레이크","textChars":15,"textLines":1,"bbox":[42,22,715,62]}
+{"kind":"textbox","id":"sh/i143m5k7","slide":1,"name":"poster-subtitle","text":"공격적으로 투자하기 전, SPY·QQQ·TLT로 확인한 수익–위험의 마지막 점검","textPreview":"공격적으로 투자하기 전, SPY·QQQ·TLT로 확인한 수익–위험의 마지막 점검","textChars":44,"textLines":1,"bbox":[45,91,720,31]}
+{"kind":"shape","id":"sh/32d4fa1s","slide":1,"bbox":[800,25,5,92]}
+{"kind":"textbox","id":"sh/43mlof2d","slide":1,"name":"research-question-header","text":"연구 질문\n높은 성장성을 지키면서\n어디까지 위험을 줄일 수 있을까?","textPreview":"연구 질문 | 높은 성장성을 지키면서 | 어디까지 위험을 줄일 수 있을까?","textChars":37,"textLines":3,"bbox":[823,24,259,99]}
+{"kind":"shape","id":"sh/54vmh0jy","slide":1,"bbox":[42,168,7,31]}
+{"kind":"textbox","id":"sh/qpo3q5k3","slide":1,"text":"01. 문제 제기","textPreview":"01. 문제 제기","textChars":9,"textLines":1,"bbox":[60,165,158,37]}
+{"kind":"textbox","id":"sh/rqx4ja1o","slide":1,"text":"가장 많이 오른 자산이 모두에게 좋은 전략은 아니다","textPreview":"가장 많이 오른 자산이 모두에게 좋은 전략은 아니다","textChars":28,"textLines":1,"bbox":[218,165,863,38]}
+{"kind":"textbox","id":"sh/r694v61o","slide":1,"text":"분석 기간에는 기술주 중심의 QQQ가 가장 크게 성장했다. 하지만 수익이 높았던 만큼 가격도 크게 흔들렸고, 하락기에는 자산가치가 고점에서 약 3분의 1 줄어들었다. 그래서 이 프로젝트는 단순히 ‘무엇이 가장 많이 올랐는가’를 고르는 대신, 분산 수준을 높일 때 성장성이 얼마나 남고 실제 손실이 얼마나 줄어드는지를 확인했다.","textPreview":"분석 기간에는 기술주 중심의 QQQ가 가장 크게 성장했다. 하지만 수익이 높았던 만큼 가격도 크게 흔들렸고, 하락기에는 자산가치가 고점에서 약 3분의 1 줄어들었다. 그래서 이 프로젝트는 단순히 ‘무엇이 가장 많이 올랐는가’를 고르는 대신, 분산...","textChars":182,"textLines":1,"bbox":[42,213,694,85]}
+{"kind":"shape","id":"sh/q503m1k3","slide":1,"bbox":[766,210,315,96]}
+{"kind":"textbox","id":"sh/d8rmxwje","slide":1,"text":"쉽게 말하면\n• 몰아서 투자한 경우\n• 주식 안에서 나눈 경우\n• 주식과 채권으로 나눈 경우\n세 단계의 결과를 비교했다.","textPreview":"쉽게 말하면 | • 몰아서 투자한 경우 | • 주식 안에서 나눈 경우 | • 주식과 채권으로 나눈 경우 | 세 단계의 결과를 비교했다.","textChars":67,"textLines":5,"bbox":[785,225,278,66]}
+{"kind":"shape","id":"sh/s7ilob29","slide":1,"bbox":[42,330,7,31]}
+{"kind":"textbox","id":"sh/329krm1c","slide":1,"text":"02. 전략 설계","textPreview":"02. 전략 설계","textChars":9,"textLines":1,"bbox":[60,327,158,37]}
+{"kind":"textbox","id":"sh/i103ihkr","slide":1,"text":"세 비율은 정답이 아니라 분산 효과를 비교하기 위한 실험 조건이다","textPreview":"세 비율은 정답이 아니라 분산 효과를 비교하기 위한 실험 조건이다","textChars":36,"textLines":1,"bbox":[218,327,863,38]}
+{"kind":"textbox","id":"sh/54rmtwji","slide":1,"text":"SPY = 미국 주식시장 전반  |  QQQ = 기술·성장주 중심  |  TLT = 미국 장기국채","textPreview":"SPY = 미국 주식시장 전반  |  QQQ = 기술·성장주 중심  |  TLT = 미국 장기국채","textChars":54,"textLines":1,"bbox":[42,372,1039,20]}
+{"kind":"textbox","id":"sh/nyt43q1w","slide":1,"text":"QQQ 100%","textPreview":"QQQ 100%","textChars":8,"textLines":1,"bbox":[78,489,110,20]}
+{"kind":"textbox","id":"sh/2xk3ul0b","slide":1,"text":"SPY 50%\nQQQ 50%","textPreview":"SPY 50% | QQQ 50%","textChars":15,"textLines":2,"bbox":[184,471,110,37]}
+{"kind":"textbox","id":"sh/yto7mp4j","slide":1,"text":"SPY 60%\nTLT 40%","textPreview":"SPY 60% | TLT 40%","textChars":15,"textLines":2,"bbox":[292,470,110,37]}
+{"kind":"shape","id":"sh/zuxovul4","slide":1,"bbox":[480,407,4,22]}
+{"kind":"textbox","id":"sh/kv6pof29","slide":1,"text":"왜 이 비율을 선택했는가","textPreview":"왜 이 비율을 선택했는가","textChars":13,"textLines":1,"bbox":[492,404,589,28]}
+{"kind":"textbox","id":"sh/lwf6xk3u","slide":1,"text":"A · QQQ 100%\nQQQ만 보유해 성장 가능성과 집중 위험의 상한선을 확인했다.\n\nB · SPY 50% + QQQ 50%\nQQQ의 성장 노출을 절반 남기고 나머지를 시장 전체로 넓혔다. 50:50은 채권 없이 ‘집중만 줄인 효과’를 보기 위한 단순한 중간점이다.\n\nC · SPY 60% + TLT 40%\n주식을 과반으로 유지하면서 채권을 40% 넣었다. 자산군을 나누는 것이 큰 하락을 실제로 막는지 확인하기 위한 방어 조건이다.","textPreview":"A · QQQ 100% | QQQ만 보유해 성장 가능성과 집중 위험의 상한선을 확인했다. |  | B · SPY 50% + QQQ 50% | QQQ의 성장 노출을 절반 남기고 나머지를 시장 전체로 넓혔다. 50:50은 채권 없이 ‘집중만 줄인 효...","textChars":243,"textLines":8,"bbox":[480,442,601,158]}
+{"kind":"shape","id":"sh/mxo7qpkf","slide":1,"bbox":[42,613,1039,34]}
+{"kind":"textbox","id":"sh/7yxozul0","slide":1,"text":"따라서 A→B→C는 ‘집중 투자 → 주식 내 분산 → 주식·채권 분산’으로 위험 완화 단계를 하나씩 높인 비교 실험이다.","textPreview":"따라서 A→B→C는 ‘집중 투자 → 주식 내 분산 → 주식·채권 분산’으로 위험 완화 단계를 하나씩 높인 비교 실험이다.","textChars":67,"textLines":1,"bbox":[60,621,1003,19]}
+{"kind":"shape","id":"sh/8j6psz2l","slide":1,"bbox":[42,673,7,31]}
+{"kind":"textbox","id":"sh/9kz61436","slide":1,"text":"03. 최적화","textPreview":"03. 최적화","textChars":7,"textLines":1,"bbox":[60,670,158,37]}
+{"kind":"textbox","id":"sh/214nu54b","slide":1,"text":"직접 만든 세 전략을 넘어 10,000개 조합에서 최적점을 찾았다","textPreview":"직접 만든 세 전략을 넘어 10,000개 조합에서 최적점을 찾았다","textChars":36,"textLines":1,"bbox":[218,670,863,38]}
+{"kind":"shape","id":"sh/n2donalw","slide":1,"bbox":[42,716,396,240]}
+{"kind":"shape","id":"sh/5gjat8ne","slide":1,"bbox":[60,737,4,22]}
+{"kind":"textbox","id":"sh/4fa903mt","slide":1,"text":"Monte Carlo 시뮬레이션","textPreview":"Monte Carlo 시뮬레이션","textChars":17,"textLines":1,"bbox":[72,734,348,28]}
+{"kind":"textbox","id":"sh/3e18ry58","slide":1,"text":"1  세 ETF의 비중을 무작위로 정하되 합계는 항상 100%가 되게 했다. 빌려서 투자하는 공매도는 제외했다.\n\n2  서로 다른 포트폴리오 10,000개를 만들고, 각 조합이 얼마나 벌고 얼마나 흔들리는지 계산했다.\n\n3  위험 한 단위당 수익이 가장 좋은 점을 Max Sharpe, 가장 덜 흔들리는 점을 Min Volatility로 선택했다.\n\n이렇게 사람이 만든 A·B·C와 데이터가 고른 최적점을 같은 기준으로 비교했다.","textPreview":"1  세 ETF의 비중을 무작위로 정하되 합계는 항상 100%가 되게 했다. 빌려서 투자하는 공매도는 제외했다. |  | 2  서로 다른 포트폴리오 10,000개를 만들고, 각 조합이 얼마나 벌고 얼마나 흔들리는지 계산했다. |  | 3  위험 ...","textChars":240,"textLines":7,"bbox":[60,775,360,164]}
+{"kind":"textbox","id":"sh/dk3ax8na","slide":1,"text":"점 하나 = 포트폴리오 한 조합  |  오른쪽 위 빨간 별 = Max Sharpe  |  왼쪽 주황 X = Min Volatility","textPreview":"점 하나 = 포트폴리오 한 조합  |  오른쪽 위 빨간 별 = Max Sharpe  |  왼쪽 주황 X = Min Volatility","textChars":74,"textLines":1,"bbox":[500,939,546,17]}
+{"kind":"shape","id":"sh/sju943mp","slide":1,"bbox":[42,982,7,31]}
+{"kind":"textbox","id":"sh/ri1svi54","slide":1,"text":"04. 결과","textPreview":"04. 결과","textChars":6,"textLines":1,"bbox":[60,979,158,37]}
+{"kind":"textbox","id":"sh/qhsr2d4z","slide":1,"text":"A는 성장 프리미엄에 집중했고, B는 일부 수익으로 집중위험을 낮췄다","textPreview":"A는 성장 프리미엄에 집중했고, B는 일부 수익으로 집중위험을 낮췄다","textChars":38,"textLines":1,"bbox":[218,979,863,38]}
+{"kind":"textbox","id":"sh/9ozqlon6","slide":1,"text":"시간이 지나며 1달러가 얼마나 불어났는가","textPreview":"시간이 지나며 1달러가 얼마나 불어났는가","textChars":22,"textLines":1,"bbox":[42,1025,516,22]}
+{"kind":"textbox","id":"sh/wfilgbal","slide":1,"text":"고점에서 가장 크게 떨어진 폭  |  짧을수록 방어적","textPreview":"고점에서 가장 크게 떨어진 폭  |  짧을수록 방어적","textChars":29,"textLines":1,"bbox":[585,1025,496,22]}
+{"kind":"textbox","id":"sh/atg3elsf","slide":1,"text":"A는 QQQ의 성장 프리미엄에 집중한 전략이다. 높은 기대수익은 기술·성장주 한 방향에 몰린 위험을 감수한 대가다. Max Sharpe가 A와 거의 같았다는 것은 분석 기간에는 이 집중의 보상이 위험보다 강하게 평가됐다는 뜻이다.\n\nB는 성장 프리미엄의 일부를 기회비용으로 지불해 QQQ 집중위험을 낮췄다. 그러나 SPY와 QQQ가 모두 주식이므로 시장 전체가 하락하는 위험까지 없애는 보험은 아니다. B가 산 것은 ‘완전한 안전’이 아니라 집중위험의 일부 완화다.\n\n따라서 B가 A보다 항상 우월한 것은 아니다. 손실 제약이 없다면 이 기간의 위험조정성과는 A가 더 좋았고, 큰 낙폭을 제한해야 할 때만 B의 낮은 절대위험이 경제적 가치를 가진다. C와 Min Volatility는 더 강한 방어를 위해 성장의 기회비용을 더 크게 지불한 경우다.","textPreview":"A는 QQQ의 성장 프리미엄에 집중한 전략이다. 높은 기대수익은 기술·성장주 한 방향에 몰린 위험을 감수한 대가다. Max Sharpe가 A와 거의 같았다는 것은 분석 기간에는 이 집중의 보상이 위험보다 강하게 평가됐다는 뜻이다. |  | B는 ...","textChars":418,"textLines":5,"bbox":[42,1252,1039,104]}
+{"kind":"shape","id":"sh/bep4nqt0","slide":1,"bbox":[42,1381,7,31]}
+{"kind":"textbox","id":"sh/orylcba9","slide":1,"text":"05. 결론","textPreview":"05. 결론","textChars":6,"textLines":1,"bbox":[60,1378,158,37]}
+{"kind":"textbox","id":"sh/9s72lgbu","slide":1,"text":"손실 감내도는 참는 힘이 아니라 강제매도를 피할 수 있는 ‘손실예산’이다","textPreview":"손실 감내도는 참는 힘이 아니라 강제매도를 피할 수 있는 ‘손실예산’이다","textChars":40,"textLines":1,"bbox":[218,1378,863,38]}
+{"kind":"shape","id":"sh/mpg3a1c3","slide":1,"name":"conclusion-band","bbox":[42,1424,1039,128]}
+{"kind":"textbox","id":"sh/nqpkj6to","slide":1,"text":"손실예산으로 선택하면","textPreview":"손실예산으로 선택하면","textChars":11,"textLines":1,"bbox":[60,1441,235,28]}
+{"kind":"textbox","id":"sh/0nel8rud","slide":1,"text":"• 역사적 최대낙폭 약 35% 이상을 감당할 손실예산이면 A를 선택할 수 있다.\n• 손실예산이 약 31~35%라면 A는 한도를 넘고 B만 범위 안에 들어온다.\n• 손실예산이 약 31%보다 작다면 A와 B 모두 기준을 충족하지 못한다.\n• 이 기준은 과거 표본에 근거한 출발점이며 미래 손실을 보장하지 않는다.","textPreview":"• 역사적 최대낙폭 약 35% 이상을 감당할 손실예산이면 A를 선택할 수 있다. | • 손실예산이 약 31~35%라면 A는 한도를 넘고 B만 범위 안에 들어온다. | • 손실예산이 약 31%보다 작다면 A와 B 모두 기준을 충족하지 못한다. | ...","textChars":172,"textLines":4,"bbox":[60,1475,662,65]}
+{"kind":"shape","id":"sh/1o72hwby","slide":1,"bbox":[744,1441,2,92]}
+{"kind":"textbox","id":"sh/3i54rmdk","slide":1,"text":"손실예산이란?\n고점 대비 손실이 발생해도\n생활자금·부채상환·투자기간 때문에\n강제매도하지 않고 전략을 유지할 수 있는\n최대 손실 한도다.","textPreview":"손실예산이란? | 고점 대비 손실이 발생해도 | 생활자금·부채상환·투자기간 때문에 | 강제매도하지 않고 전략을 유지할 수 있는 | 최대 손실 한도다.","textChars":75,"textLines":5,"bbox":[769,1445,286,80]}
+{"kind":"textbox","id":"sh/2hw3ihwz","slide":1,"text":"한계: 동일 기간 최적화·평가, 비용·세금 미반영, 매일 재조정, 3개 ETF·무위험수익률 3% 고정  |  후속: 롤링·표본외 검증, 거래비용·재조정 주기 반영","textPreview":"한계: 동일 기간 최적화·평가, 비용·세금 미반영, 매일 재조정, 3개 ETF·무위험수익률 3% 고정  |  후속: 롤링·표본외 검증, 거래비용·재조정 주기 반영","textChars":90,"textLines":1,"bbox":[42,1557,1039,11]}
+{"kind":"textbox","id":"sh/pknmtwvq","slide":1,"text":"자료: Yahoo Finance via yfinance  |  분석: Python · pandas · NumPy  |  분석 기간: 2015.01.02–2024.12.30","textPreview":"자료: Yahoo Finance via yfinance  |  분석: Python · pandas · NumPy  |  분석 기간: 2015.01.02–2024.12.30","textChars":95,"textLines":1,"bbox":[42,1573,1039,10]}
+{"kind":"chart","id":"ch/cbatkruh","slide":1,"name":"","chartType":"bar","bbox":[42,401,408,203]}
+{"kind":"chart","id":"ch/07mp8n2h","slide":1,"name":"","chartType":"line","bbox":[42,1050,516,190]}
+{"kind":"chart","id":"ch/5ojapgnq","slide":1,"name":"","chartType":"bar","bbox":[585,1050,496,190]}
+{"kind":"image","id":"im/dwfqlsbi","slide":1,"name":"","alt":"SPY, QQQ, TLT 비중을 무작위로 조합한 10,000개 포트폴리오와 Max Sharpe, Min Volatility 최적점","bbox":[576,716,395,221]}
+{"kind":"notes","id":"nt/koj8pm","slide":1,"text":"[Sources]\n- Local price data: C:\\Users\\Insun\\Last-break-of-Honeybadger\\etf_price.csv\n- Asset return summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week4\\week4_return_summary.csv\n- Asset risk summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week5\\week5_risk_summary.csv\n- Manual strategy summary: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week6\\week6_strategy_summary.csv\n- Monte Carlo simulations and optimal portfolios: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\n- Final strategy summary and recommendations: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week8\n- Efficient frontier image: C:\\Users\\Insun\\Last-break-of-Honeybadger\\outputs\\week7\\efficient_frontier.png\n- Underlying market-data source recorded by the project: Yahoo Finance via yfinance\n\n"}

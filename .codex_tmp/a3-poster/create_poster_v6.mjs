@@ -5,8 +5,8 @@ import { Presentation, PresentationFile } from "@oai/artifact-tool";
 const ROOT = "C:\\Users\\Insun\\Last-break-of-Honeybadger";
 const TMP = path.join(ROOT, ".codex_tmp", "a3-poster");
 const OUT = path.join(ROOT, "outputs", "poster");
-const FINAL_PPTX = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v6.pptx");
-const PREVIEW_PNG = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v6_preview.png");
+const FINAL_PPTX = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v7.pptx");
+const PREVIEW_PNG = path.join(OUT, "Last_Break_of_Honeybadger_A3_Portrait_v7_preview.png");
 
 const W = 1123;
 const H = 1587;
@@ -288,7 +288,7 @@ async function main() {
   );
 
   // 04 Results
-  addSectionHeading(slide, "04", "결과", "성장성은 집중에서, 방어력은 분산에서 나왔지만 완벽한 전략은 없었다", 979);
+  addSectionHeading(slide, "04", "결과", "A는 성장 프리미엄에 집중했고, B는 일부 수익으로 집중위험을 낮췄다", 979);
   addText(
     slide,
     "시간이 지나며 1달러가 얼마나 불어났는가",
@@ -372,30 +372,30 @@ async function main() {
 
   addText(
     slide,
-    "A와 Max Sharpe는 가장 크게 성장했지만, 하락기에는 자산가치가 고점에서 약 3분의 1 줄어드는 구간을 견뎌야 했다. 최적화가 완전히 새로운 답을 찾은 것이 아니라, 이 기간에 강했던 QQQ 집중을 다시 선택한 결과다.\n\nB는 QQQ 비중을 절반으로 줄였는데도 성장 흐름의 상당 부분을 유지했다. 동시에 가격 흔들림과 큰 하락도 완화되어, 성장성과 위험 관리 사이에서 가장 이해하기 쉬운 중간안이 되었다.\n\nC는 수동 전략 중 큰 하락을 가장 잘 막았지만 성장 속도는 낮았다. Min Volatility는 평소 움직임은 가장 잔잔했지만 C보다 큰 하락을 더 잘 막지는 못했다. 따라서 ‘덜 흔들리는 것’과 ‘크게 잃지 않는 것’은 같은 의미가 아니었다.",
+    "A는 QQQ의 성장 프리미엄에 집중한 전략이다. 높은 기대수익은 기술·성장주 한 방향에 몰린 위험을 감수한 대가다. Max Sharpe가 A와 거의 같았다는 것은 분석 기간에는 이 집중의 보상이 위험보다 강하게 평가됐다는 뜻이다.\n\nB는 성장 프리미엄의 일부를 기회비용으로 지불해 QQQ 집중위험을 낮췄다. 그러나 SPY와 QQQ가 모두 주식이므로 시장 전체가 하락하는 위험까지 없애는 보험은 아니다. B가 산 것은 ‘완전한 안전’이 아니라 집중위험의 일부 완화다.\n\n따라서 B가 A보다 항상 우월한 것은 아니다. 손실 제약이 없다면 이 기간의 위험조정성과는 A가 더 좋았고, 큰 낙폭을 제한해야 할 때만 B의 낮은 절대위험이 경제적 가치를 가진다. C와 Min Volatility는 더 강한 방어를 위해 성장의 기회비용을 더 크게 지불한 경우다.",
     { left: 42, top: 1252, width: 1039, height: 104 },
     { fontSize: 14, color: C.ink, lineSpacing: 1.06 }
   );
 
   // 05 Conclusion
-  addSectionHeading(slide, "05", "결론", "전략 선택은 최고 수익률이 아니라 감당할 수 있는 손실에서 시작해야 한다", 1378);
+  addSectionHeading(slide, "05", "결론", "손실 감내도는 참는 힘이 아니라 강제매도를 피할 수 있는 ‘손실예산’이다", 1378);
   addRect(slide, { left: 42, top: 1424, width: 1039, height: 128 }, C.navy, "conclusion-band");
   addText(
     slide,
-    "이 프로젝트가 보여준 것",
+    "손실예산으로 선택하면",
     { left: 60, top: 1441, width: 235, height: 28 },
     { fontSize: 20, bold: true, color: C.orange }
   );
   addText(
     slide,
-    "• 큰 하락을 감수하고 성장성을 최우선으로 두면 A가 맞다.\n• 성장 가능성을 남기면서 집중 위험을 낮추려면 B가 현실적인 절충안이다.\n• 평소 흔들림보다 실제 최대 손실이 중요하다면 C가 Min Volatility보다 설득력 있었다.\n• 10,000개에서 찾은 최적점도 기간과 판단 기준에 따라 달라지므로 영구적인 정답은 아니다.",
+    "• 역사적 최대낙폭 약 35% 이상을 감당할 손실예산이면 A를 선택할 수 있다.\n• 손실예산이 약 31~35%라면 A는 한도를 넘고 B만 범위 안에 들어온다.\n• 손실예산이 약 31%보다 작다면 A와 B 모두 기준을 충족하지 못한다.\n• 이 기준은 과거 표본에 근거한 출발점이며 미래 손실을 보장하지 않는다.",
     { left: 60, top: 1475, width: 662, height: 65 },
     { fontSize: 14, bold: true, color: C.white, lineSpacing: 1.04 }
   );
   addRule(slide, 744, 1441, 2, "#486581", 92);
   addText(
     slide,
-    "발표의 최종 메시지\n분산은 무조건 안전해지는 기술이 아니다.\n어떤 수익을 포기하고 어떤 손실을 줄였는지\n함께 설명할 때 비로소 전략이 된다.",
+    "손실예산이란?\n고점 대비 손실이 발생해도\n생활자금·부채상환·투자기간 때문에\n강제매도하지 않고 전략을 유지할 수 있는\n최대 손실 한도다.",
     { left: 769, top: 1445, width: 286, height: 80 },
     { fontSize: 15, bold: true, color: "#D9E2EC", alignment: "center", lineSpacing: 1.08 }
   );
@@ -419,12 +419,12 @@ async function main() {
   const preview = await presentation.export({ slide, format: "png", scale: 1.5 });
   await writeBlob(PREVIEW_PNG, preview);
   const layout = await slide.export({ format: "layout" });
-  await fs.writeFile(path.join(TMP, "poster-v6-layout.json"), await layout.text());
+  await fs.writeFile(path.join(TMP, "poster-v7-layout.json"), await layout.text());
   const snapshot = await presentation.inspect({
     kind: "slide,textbox,shape,image,table,chart,notes",
     maxChars: 30000,
   });
-  await fs.writeFile(path.join(TMP, "poster-v6-inspect.ndjson"), snapshot.ndjson);
+  await fs.writeFile(path.join(TMP, "poster-v7-inspect.ndjson"), snapshot.ndjson);
 
   const pptx = await PresentationFile.exportPptx(presentation);
   await pptx.save(FINAL_PPTX);
